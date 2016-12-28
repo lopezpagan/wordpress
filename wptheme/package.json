@@ -9,14 +9,14 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/lopezpagan/wordpress/wptheme.git"
+    "url": "git+https://github.com/lopezpagan/wordpress.git"
   },
   "author": "Tony López Pagán (tony@lopezpagan.com)",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/lopezpagan/wordpress/wptheme/issues"
+    "url": "https://github.com/lopezpagan/wordpress/issues"
   },
-  "homepage": "https://github.com/lopezpagan/wordpress/wptheme#readme",
+  "homepage": "https://github.com/lopezpagan/wordpress/tree/master/wptheme#readme",
   "dependencies": {
     "bower": "^1.8.0"
   },
