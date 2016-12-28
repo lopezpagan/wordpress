@@ -1,0 +1,86 @@
+/**
+* Base Styles
+**/
+/* line 6, ../../sources/sass/base-styles.scss */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 12, ../../sources/sass/base-styles.scss */
+h1 {
+  font-weight: 700 !important;
+  font-size: 48px !important;
+  line-height: 38px !important;
+}
+
+/* line 17, ../../sources/sass/base-styles.scss */
+h2 {
+  font-weight: 400 !important;
+  font-size: 30px !important;
+  line-height: 45px !important;
+}
+
+/* line 22, ../../sources/sass/base-styles.scss */
+h3 {
+  font-weight: 700 !important;
+  font-size: 12px !important;
+  line-height: 18px !important;
+}
+
+/* line 27, ../../sources/sass/base-styles.scss */
+h4 {
+  font-weight: 700 !important;
+  font-size: 28px !important;
+  line-height: 32px !important;
+}
+
+/* line 32, ../../sources/sass/base-styles.scss */
+h5 {
+  font-weight: 700 !important;
+  font-size: 12px !important;
+  line-height: 18px !important;
+}
+
+/* line 37, ../../sources/sass/base-styles.scss */
+h6 {
+  font-weight: 400 !important;
+  font-size: 20px !important;
+  line-height: 30px !important;
+}
+
+/* line 42, ../../sources/sass/base-styles.scss */
+p {
+  font-weight: 300 !important;
+  font-size: 16px !important;
+  line-height: 30px !important;
+}
+
+/* line 47, ../../sources/sass/base-styles.scss */
+small {
+  font-weight: 300 !important;
+  font-size: 16px !important;
+  line-height: 18px !important;
+}
+
+/* line 53, ../../sources/sass/base-styles.scss */
+a {
+  text-decoration: none !important;
+}
+/* line 56, ../../sources/sass/base-styles.scss */
+a:active, a:hover {
+  outline: 0;
+}
+
+/* line 61, ../../sources/sass/base-styles.scss */
+.glyphicons {
+  font-family: 'Glyphicons Halflings';
+}
+
+/**
+* Old Browser Fix
+**/
+/* line 68, ../../sources/sass/base-styles.scss */
+article, section, aside, hgroup, nav, header, footer, figure, figcaption {
+  display: block;
+}

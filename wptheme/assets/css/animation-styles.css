@@ -1,0 +1,22 @@
+/**
+* Animations Styles
+**/
+/* line 5, ../../sources/sass/animation-styles.scss */
+a {
+  text-decoration: none !important;
+  opacity: .85;
+}
+/* line 9, ../../sources/sass/animation-styles.scss */
+a:hover, a:focus {
+  opacity: 1;
+  transition: opacity 3.5 ease-in;
+}
+/* line 14, ../../sources/sass/animation-styles.scss */
+a:active, a:hover {
+  outline: 0;
+}
+
+/* line 19, ../../sources/sass/animation-styles.scss */
+.glyphicons:hover, .glyphicons:focus, a.page-scroll:hover, a.page-scroll:focus {
+  transition: color .3s linear;
+}

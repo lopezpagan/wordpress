@@ -1,0 +1,184 @@
+/**
+ * 17.0 Print
+ */
+@media print {
+  /* line 9, ../../sources/sass/17.0.print.scss */
+  body {
+    background: none !important;
+    /* Brute force since user agents all print differently. */
+    font-size: 11.25pt;
+  }
+
+  /* line 14, ../../sources/sass/17.0.print.scss */
+  .secondary-toggle,
+  .navigation,
+  .page-links,
+  .edit-link,
+  #reply-title,
+  .comment-form,
+  .comment-edit-link,
+  .comment-list .reply a,
+  button,
+  input,
+  textarea,
+  select,
+  .widecolumn form,
+  .widecolumn .mu_register form {
+    display: none;
+  }
+
+  /* line 31, ../../sources/sass/17.0.print.scss */
+  .site-header,
+  .site-footer,
+  .hentry,
+  .entry-footer,
+  .page-header,
+  .page-content,
+  .comments-area,
+  .widecolumn {
+    background: none !important;
+    /* Make sure color schemes dont't affect to print */
+  }
+
+  /* line 42, ../../sources/sass/17.0.print.scss */
+  body,
+  blockquote,
+  blockquote cite,
+  blockquote small,
+  label,
+  a,
+  .site-title a,
+  .site-description,
+  .post-title,
+  .author-heading,
+  .entry-footer,
+  .entry-footer a,
+  .taxonomy-description,
+  .entry-caption,
+  .comment-author,
+  .comment-metadata,
+  .comment-metadata a,
+  .comment-notes,
+  .comment-awaiting-moderation,
+  .no-comments,
+  .site-info,
+  .site-info a,
+  .wp-caption-text,
+  .gallery-caption {
+    color: #000 !important;
+    /* Make sure color schemes don't affect to print */
+  }
+
+  /* line 69, ../../sources/sass/17.0.print.scss */
+  pre,
+  abbr[title],
+  table,
+  th,
+  td,
+  .site-header,
+  .site-footer,
+  .hentry + .hentry,
+  .author-info,
+  .page-header,
+  .comments-area,
+  .comment-list + .comment-respond,
+  .comment-list article,
+  .comment-list .pingback,
+  .comment-list .trackback,
+  .no-comments {
+    border-color: #eaeaea !important;
+    /* Make sure color schemes don't affect to print */
+  }
+
+  /* line 88, ../../sources/sass/17.0.print.scss */
+  .site {
+    margin: 0 7.6923%;
+  }
+
+  /* line 92, ../../sources/sass/17.0.print.scss */
+  .sidebar {
+    position: relative !important;
+    /* Make sure sticky sidebar doesn't affect to print */
+  }
+
+  /* line 96, ../../sources/sass/17.0.print.scss */
+  .site-branding {
+    padding: 0;
+  }
+
+  /* line 100, ../../sources/sass/17.0.print.scss */
+  .site-header {
+    padding: 7.6923% 0;
+  }
+
+  /* line 104, ../../sources/sass/17.0.print.scss */
+  .site-description {
+    display: block;
+  }
+
+  /* line 108, ../../sources/sass/17.0.print.scss */
+  .hentry + .hentry {
+    margin-top: 7.6923%;
+  }
+
+  /* line 112, ../../sources/sass/17.0.print.scss */
+  .hentry.has-post-thumbnail {
+    padding-top: 7.6923%;
+  }
+
+  /* line 116, ../../sources/sass/17.0.print.scss */
+  .sticky-post {
+    background: #000 !important;
+    color: #fff !important;
+  }
+
+  /* line 121, ../../sources/sass/17.0.print.scss */
+  .entry-header,
+  .entry-footer {
+    padding: 0;
+  }
+
+  /* line 126, ../../sources/sass/17.0.print.scss */
+  .entry-content,
+  .entry-summary {
+    padding: 0 0 7.6923%;
+  }
+
+  /* line 131, ../../sources/sass/17.0.print.scss */
+  .post-thumbnail img {
+    margin: 0;
+  }
+
+  /* line 135, ../../sources/sass/17.0.print.scss */
+  .author-info {
+    margin: 0;
+  }
+
+  /* line 139, ../../sources/sass/17.0.print.scss */
+  .page-content {
+    padding: 7.6923% 0 0;
+  }
+
+  /* line 143, ../../sources/sass/17.0.print.scss */
+  .page-header {
+    padding: 3.84615% 0;
+  }
+
+  /* line 147, ../../sources/sass/17.0.print.scss */
+  .comments-area {
+    border: 0;
+    padding: 7.6923% 0 0;
+  }
+
+  /* line 152, ../../sources/sass/17.0.print.scss */
+  .site-footer {
+    margin-top: 7.6923%;
+    padding: 3.84615% 0;
+  }
+
+  /* line 157, ../../sources/sass/17.0.print.scss */
+  .widecolumn {
+    margin: 7.6923% 0 0;
+    padding: 0;
+  }
+}

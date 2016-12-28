@@ -1,0 +1,28 @@
+{
+  "name": "wptheme",
+  "version": "0.0.1",
+  "engines": {
+    "node": "6.9.2",
+    "npm": "3.10.9"
+  },
+  "description": "WP Theme Project.  It install bower.json when it uploads to heroku.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lopezpagan/wordpress/wptheme.git"
+  },
+  "author": "Tony López Pagán (tony@lopezpagan.com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lopezpagan/wordpress/wptheme/issues"
+  },
+  "homepage": "https://github.com/lopezpagan/wordpress/wptheme#readme",
+  "dependencies": {
+    "bower": "^1.8.0"
+  },
+  "scripts": {
+    "postinstall": "./node_modules/bower/bin/bower install",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {}
+}

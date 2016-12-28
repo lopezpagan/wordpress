@@ -1,0 +1,81 @@
+/**
+* Theme Styles
+**/
+
+$COLOR_DEFAULT: #FFFFFF;  //BG, BUTTON
+$COLOR_ALTERNATE: #333333;  //HEADER AND MENU
+$COLOR_MIDDLE: #666666;  //HEADER AND MENU
+
+
+body {
+    background-color: $COLOR_DEFAULT;
+}
+
+.logo { 
+    color: $COLOR_MIDDLE !important;
+}
+
+a {
+    color: $COLOR_MIDDLE !important;
+}
+a:hover, a:focus, a:active {
+    color: $COLOR_MIDDLE !important;
+}
+
+.section { 
+    /**
+    *  TEMPLATE COLOR
+    **/
+
+    &.section__template--normal {
+        background-color: $COLOR_DEFAULT;
+        
+        header {
+            color: $COLOR_ALTERNATE;
+            border-bottom: 1px dotted $COLOR_MIDDLE;
+        }
+
+        h2 { color: $COLOR_ALTERNATE; }
+        h3 { color: $COLOR_MIDDLE; }
+        h4 { color: $COLOR_ALTERNATE; }
+        h5 { color: $COLOR_ALTERNATE; }
+        h6 { color: $COLOR_MIDDLE; }
+        p { color: $COLOR_ALTERNATE; } 
+        ul { color: $COLOR_ALTERNATE; } 
+        ul li { color: $COLOR_ALTERNATE; } 
+        ul li a { color: $COLOR_MIDDLE !important; }  
+
+        a {
+            color: $COLOR_MIDDLE !important;
+        }
+        a:hover, a:focus, a:active {
+            color: $COLOR_MIDDLE !important;
+        }
+    }
+
+    &.section__template--alternate {
+        background-color: $COLOR_ALTERNATE;
+
+        header {
+            color: $COLOR_DEFAULT;
+            border-bottom: 1px dotted $COLOR_MIDDLE;
+        }
+
+        h2 { color: $COLOR_DEFAULT; }
+        h3 { color: $COLOR_DEFAULT; }
+        h4 { color: $COLOR_DEFAULT; }
+        h5 { color: $COLOR_DEFAULT; }
+        h6 { color: $COLOR_MIDDLE; }
+        p { color: $COLOR_DEFAULT; } 
+        ul { color: $COLOR_DEFAULT; } 
+        ul li { color: $COLOR_DEFAULT; }
+        ul li a { color: $COLOR_MIDDLE !important; }   
+
+        a {
+            color: $COLOR_MIDDLE !important;
+        }
+        a:hover, a:focus, a:active {
+            color: $COLOR_MIDDLE !important;
+        }
+    }
+}

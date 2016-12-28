@@ -1,0 +1,21 @@
+/**
+* Animations Styles
+**/
+
+a {
+    text-decoration: none !important;
+    opacity: .85;
+
+    &:hover, &:focus {
+        opacity: 1;
+        transition: opacity 3.5 ease-in;
+    }
+
+    &:active, &:hover {
+        outline: 0;
+    }
+}
+
+.glyphicons:hover, .glyphicons:focus, a.page-scroll:hover, a.page-scroll:focus {         
+    transition: color .3s linear;
+}

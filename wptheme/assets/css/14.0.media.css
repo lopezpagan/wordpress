@@ -1,0 +1,180 @@
+/**
+ * 14.0 Media
+ */
+/* line 8, ../../sources/sass/14.0.media.scss */
+.site .avatar {
+  border-radius: 50%;
+}
+
+/* line 12, ../../sources/sass/14.0.media.scss */
+.page-content img.wp-smiley,
+.entry-content img.wp-smiley,
+.comment-content img.wp-smiley {
+  border: none;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 0;
+}
+
+/* line 21, ../../sources/sass/14.0.media.scss */
+audio,
+canvas {
+  display: inline-block;
+}
+
+/* line 26, ../../sources/sass/14.0.media.scss */
+embed,
+iframe,
+object,
+video {
+  margin-bottom: 1.6em;
+  max-width: 100%;
+  vertical-align: middle;
+}
+
+/* line 35, ../../sources/sass/14.0.media.scss */
+p > embed,
+p > iframe,
+p > object,
+p > video {
+  margin-bottom: 0;
+}
+
+/* line 42, ../../sources/sass/14.0.media.scss */
+.wp-audio-shortcode,
+.wp-video,
+.wp-playlist.wp-audio-playlist {
+  font-size: 15px;
+  font-size: 1.5rem;
+  margin-top: 0;
+  margin-bottom: 1.6em;
+}
+
+/* line 51, ../../sources/sass/14.0.media.scss */
+.wp-playlist.wp-playlist {
+  padding-bottom: 0;
+}
+
+/* line 55, ../../sources/sass/14.0.media.scss */
+.wp-playlist .wp-playlist-tracks {
+  margin-top: 0;
+}
+
+/* line 59, ../../sources/sass/14.0.media.scss */
+.wp-playlist-item .wp-playlist-caption {
+  border-bottom: 0;
+  padding: 10px 0;
+}
+
+/* line 64, ../../sources/sass/14.0.media.scss */
+.wp-playlist-item .wp-playlist-item-length {
+  top: 10px;
+}
+
+/**
+ * 14.1 Captions
+ */
+/* line 73, ../../sources/sass/14.0.media.scss */
+.wp-caption {
+  margin-bottom: 1.6em;
+  max-width: 100%;
+}
+
+/* line 78, ../../sources/sass/14.0.media.scss */
+.wp-caption img[class*="wp-image-"] {
+  display: block;
+  margin: 0;
+}
+
+/* line 83, ../../sources/sass/14.0.media.scss */
+.wp-caption-text {
+  color: #707070;
+  color: rgba(51, 51, 51, 0.7);
+  font-family: "Noto Sans", sans-serif;
+  font-size: 12px;
+  font-size: 1.2rem;
+  line-height: 1.5;
+  padding: 0.5em 0;
+}
+
+/**
+ * 14.2 Galleries
+ */
+/* line 98, ../../sources/sass/14.0.media.scss */
+.gallery {
+  margin-bottom: 1.6em;
+}
+
+/* line 102, ../../sources/sass/14.0.media.scss */
+.gallery-item {
+  display: inline-block;
+  padding: 1.79104477%;
+  text-align: center;
+  vertical-align: top;
+  width: 100%;
+}
+
+/* line 110, ../../sources/sass/14.0.media.scss */
+.gallery-columns-2 .gallery-item {
+  max-width: 50%;
+}
+
+/* line 114, ../../sources/sass/14.0.media.scss */
+.gallery-columns-3 .gallery-item {
+  max-width: 33.33%;
+}
+
+/* line 118, ../../sources/sass/14.0.media.scss */
+.gallery-columns-4 .gallery-item {
+  max-width: 25%;
+}
+
+/* line 122, ../../sources/sass/14.0.media.scss */
+.gallery-columns-5 .gallery-item {
+  max-width: 20%;
+}
+
+/* line 126, ../../sources/sass/14.0.media.scss */
+.gallery-columns-6 .gallery-item {
+  max-width: 16.66%;
+}
+
+/* line 130, ../../sources/sass/14.0.media.scss */
+.gallery-columns-7 .gallery-item {
+  max-width: 14.28%;
+}
+
+/* line 134, ../../sources/sass/14.0.media.scss */
+.gallery-columns-8 .gallery-item {
+  max-width: 12.5%;
+}
+
+/* line 138, ../../sources/sass/14.0.media.scss */
+.gallery-columns-9 .gallery-item {
+  max-width: 11.11%;
+}
+
+/* line 142, ../../sources/sass/14.0.media.scss */
+.gallery-icon img {
+  margin: 0 auto;
+}
+
+/* line 146, ../../sources/sass/14.0.media.scss */
+.gallery-caption {
+  color: #707070;
+  color: rgba(51, 51, 51, 0.7);
+  display: block;
+  font-family: "Noto Sans", sans-serif;
+  font-size: 12px;
+  font-size: 1.2rem;
+  line-height: 1.5;
+  padding: 0.5em 0;
+}
+
+/* line 157, ../../sources/sass/14.0.media.scss */
+.gallery-columns-6 .gallery-caption,
+.gallery-columns-7 .gallery-caption,
+.gallery-columns-8 .gallery-caption,
+.gallery-columns-9 .gallery-caption {
+  display: none;
+}

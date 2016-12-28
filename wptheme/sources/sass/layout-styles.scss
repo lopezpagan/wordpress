@@ -1,0 +1,77 @@
+
+/**
+* Page Layout
+**/
+
+nav {
+    top: 40px;
+    position: relative;
+    z-index: 9999 !important;
+    width: 100% !important;
+    
+    .logo {
+        font-size: 14px;
+    }
+        
+    .navbar-toggle .icon-bar {
+        width: 36px !important;
+        height: 3px !important;
+        border-radius: 0 !important;
+    }
+    .navbar-toggle {
+        padding: 5px 0 !important;
+        border: 0 !important;
+        border-radius: 0 !important;
+    }
+    
+}
+
+main {
+   -webkit-overflow-scrolling: touch;
+    height: 100vh;
+    position: relative;
+    top: -50px;
+}
+
+div.header {
+    -webkit-overflow-scrolling: touch;
+    height: 90vh;
+    position: relative;
+    padding-top: 140px;
+}
+
+/**
+* Page Sections
+**/
+
+.section {    
+    -webkit-overflow-scrolling: touch;
+    position: relative;
+    padding-top: 0;
+    padding-bottom: 0;
+
+    /**
+    *  TEMPLATE BLOCKS
+    **/
+    
+    &.section__block--notitle {
+        padding-top: 70px !important;
+        padding-bottom: 70px !important;       
+    }
+
+    &.section__block--title {
+        padding-top: 70px !important;
+        padding-bottom: 0 !important;        
+    }
+
+    &.section__block--first {
+        padding-top: 0 !important;
+        padding-bottom: 40px !important;
+
+    }
+
+    &.section__block--body {
+        padding-top: 40px !important;
+        padding-bottom: 40px !important;        
+    }
+}

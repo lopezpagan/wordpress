@@ -1,0 +1,29 @@
+/**
+ * 13.0 Footer
+ */
+/* line 8, ../../sources/sass/13.0.footer.scss */
+.site-info {
+  color: #707070;
+  color: rgba(51, 51, 51, 0.7);
+  font-size: 12px;
+  font-size: 1.2rem;
+  line-height: 1.5;
+}
+
+/* line 16, ../../sources/sass/13.0.footer.scss */
+.site-info a {
+  border-bottom: 1px solid transparent;
+  color: #707070;
+  color: rgba(51, 51, 51, 0.7);
+}
+
+/* line 22, ../../sources/sass/13.0.footer.scss */
+.site-info a:hover {
+  border-bottom: 1px solid #333;
+}
+
+/* line 26, ../../sources/sass/13.0.footer.scss */
+.site-info a:hover,
+.site-info a:focus {
+  color: #333;
+}

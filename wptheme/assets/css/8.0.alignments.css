@@ -1,0 +1,51 @@
+/**
+ * 8.0 Alignments
+ */
+/* line 8, ../../sources/sass/8.0.alignments.scss */
+.alignleft {
+  display: inline;
+  float: left;
+}
+
+/* line 13, ../../sources/sass/8.0.alignments.scss */
+.alignright {
+  display: inline;
+  float: right;
+}
+
+/* line 18, ../../sources/sass/8.0.alignments.scss */
+.aligncenter {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/* line 24, ../../sources/sass/8.0.alignments.scss */
+blockquote.alignleft,
+.wp-caption.alignleft,
+img.alignleft {
+  margin: 0.4em 1.6em 1.6em 0;
+}
+
+/* line 30, ../../sources/sass/8.0.alignments.scss */
+blockquote.alignright,
+.wp-caption.alignright,
+img.alignright {
+  margin: 0.4em 0 1.6em 1.6em;
+}
+
+/* line 36, ../../sources/sass/8.0.alignments.scss */
+blockquote.aligncenter,
+.wp-caption.aligncenter,
+img.aligncenter {
+  clear: both;
+  margin-top: 0.4em;
+  margin-bottom: 1.6em;
+}
+
+/* line 44, ../../sources/sass/8.0.alignments.scss */
+.wp-caption.alignleft,
+.wp-caption.alignright,
+.wp-caption.aligncenter {
+  margin-bottom: 1.2em;
+}
