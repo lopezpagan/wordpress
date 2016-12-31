@@ -1,0 +1,36 @@
+/**
+ * 8.0 Lists
+ */
+/* line 7, ../../sources/sass/8.0.lists.scss */
+ul,
+ol {
+  margin: 0 0 1.5em;
+  padding: 0;
+}
+
+/* line 13, ../../sources/sass/8.0.lists.scss */
+ul {
+  list-style: disc;
+}
+
+/* line 17, ../../sources/sass/8.0.lists.scss */
+ol {
+  list-style: decimal;
+}
+
+/* line 21, ../../sources/sass/8.0.lists.scss */
+li > ul,
+li > ol {
+  margin-bottom: 0;
+  margin-left: 1.5em;
+}
+
+/* line 27, ../../sources/sass/8.0.lists.scss */
+dt {
+  font-weight: 700;
+}
+
+/* line 31, ../../sources/sass/8.0.lists.scss */
+dd {
+  margin: 0 1.5em 1.5em;
+}

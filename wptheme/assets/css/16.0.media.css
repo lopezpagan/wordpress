@@ -1,0 +1,297 @@
+/**
+ * 16.0 Media 
+ */
+/* line 7, ../../sources/sass/16.0.media.scss */
+img,
+video {
+  height: auto;
+  /* Make sure images are scaled correctly. */
+  max-width: 100%;
+  /* Adhere to container width. */
+}
+
+/* line 13, ../../sources/sass/16.0.media.scss */
+img.alignleft,
+img.alignright {
+  float: none;
+  margin: 0;
+}
+
+/* line 19, ../../sources/sass/16.0.media.scss */
+.page-content .wp-smiley,
+.entry-content .wp-smiley,
+.comment-content .wp-smiley {
+  border: none;
+  margin-bottom: 0;
+  margin-top: 0;
+  padding: 0;
+}
+
+/* Make sure embeds and iframes fit their containers. */
+/* line 30, ../../sources/sass/16.0.media.scss */
+embed,
+iframe,
+object {
+  margin-bottom: 1.5em;
+  max-width: 100%;
+}
+
+/* line 37, ../../sources/sass/16.0.media.scss */
+.wp-caption,
+.gallery-caption {
+  color: #666;
+  font-size: 13px;
+  font-size: 0.8125rem;
+  font-style: italic;
+  margin-bottom: 1.5em;
+  max-width: 100%;
+}
+
+/* line 47, ../../sources/sass/16.0.media.scss */
+.wp-caption img[class*="wp-image-"] {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* line 53, ../../sources/sass/16.0.media.scss */
+.wp-caption .wp-caption-text {
+  margin: 0.8075em 0;
+}
+
+/* Media Elements */
+/* line 59, ../../sources/sass/16.0.media.scss */
+.mejs-container {
+  margin-bottom: 1.5em;
+}
+
+/* Audio Player */
+/* line 65, ../../sources/sass/16.0.media.scss */
+.mejs-controls a.mejs-horizontal-volume-slider,
+.mejs-controls a.mejs-horizontal-volume-slider:focus,
+.mejs-controls a.mejs-horizontal-volume-slider:hover {
+  background: transparent;
+  border: 0;
+}
+
+/* Playlist Color Overrides: Light */
+/* line 74, ../../sources/sass/16.0.media.scss */
+.site-content .wp-playlist-light {
+  border-color: #eee;
+  color: #222;
+}
+
+/* line 79, ../../sources/sass/16.0.media.scss */
+.site-content .wp-playlist-light .wp-playlist-current-item .wp-playlist-item-album {
+  color: #333;
+}
+
+/* line 83, ../../sources/sass/16.0.media.scss */
+.site-content .wp-playlist-light .wp-playlist-current-item .wp-playlist-item-artist {
+  color: #767676;
+}
+
+/* line 87, ../../sources/sass/16.0.media.scss */
+.site-content .wp-playlist-light .wp-playlist-item {
+  border-bottom: 1px dotted #eee;
+  -webkit-transition: background-color 0.2s ease-in-out, border-color 0.2s ease-in-out, color 0.3s ease-in-out;
+  transition: background-color 0.2s ease-in-out, border-color 0.2s ease-in-out, color 0.3s ease-in-out;
+}
+
+/* line 93, ../../sources/sass/16.0.media.scss */
+.site-content .wp-playlist-light .wp-playlist-item:hover,
+.site-content .wp-playlist-light .wp-playlist-item:focus {
+  border-bottom-color: transparent;
+  background-color: #767676;
+  color: #fff;
+}
+
+/* line 100, ../../sources/sass/16.0.media.scss */
+.site-content .wp-playlist-light a.wp-playlist-caption:hover,
+.site-content .wp-playlist-light .wp-playlist-item:hover a,
+.site-content .wp-playlist-light .wp-playlist-item:focus a {
+  color: #fff;
+}
+
+/* Playlist Color Overrides: Dark */
+/* line 108, ../../sources/sass/16.0.media.scss */
+.site-content .wp-playlist-dark {
+  background: #222;
+  border-color: #333;
+}
+
+/* line 113, ../../sources/sass/16.0.media.scss */
+.site-content .wp-playlist-dark .mejs-container .mejs-controls {
+  background-color: #333;
+}
+
+/* line 117, ../../sources/sass/16.0.media.scss */
+.site-content .wp-playlist-dark .wp-playlist-caption {
+  color: #fff;
+}
+
+/* line 121, ../../sources/sass/16.0.media.scss */
+.site-content .wp-playlist-dark .wp-playlist-current-item .wp-playlist-item-album {
+  color: #eee;
+}
+
+/* line 125, ../../sources/sass/16.0.media.scss */
+.site-content .wp-playlist-dark .wp-playlist-current-item .wp-playlist-item-artist {
+  color: #aaa;
+}
+
+/* line 129, ../../sources/sass/16.0.media.scss */
+.site-content .wp-playlist-dark .wp-playlist-playing {
+  background-color: #333;
+}
+
+/* line 133, ../../sources/sass/16.0.media.scss */
+.site-content .wp-playlist-dark .wp-playlist-item {
+  border-bottom: 1px dotted #555;
+  -webkit-transition: background-color 0.2s ease-in-out, border-color 0.2s ease-in-out, color 0.3s ease-in-out;
+  transition: background-color 0.2s ease-in-out, border-color 0.2s ease-in-out, color 0.3s ease-in-out;
+}
+
+/* line 139, ../../sources/sass/16.0.media.scss */
+.site-content .wp-playlist-dark .wp-playlist-item:hover,
+.site-content .wp-playlist-dark .wp-playlist-item:focus {
+  border-bottom-color: transparent;
+  background-color: #aaa;
+  color: #222;
+}
+
+/* line 146, ../../sources/sass/16.0.media.scss */
+.site-content .wp-playlist-dark a.wp-playlist-caption:hover,
+.site-content .wp-playlist-dark .wp-playlist-item:hover a,
+.site-content .wp-playlist-dark .wp-playlist-item:focus a {
+  color: #222;
+}
+
+/* Playlist Style Overrides */
+/* line 154, ../../sources/sass/16.0.media.scss */
+.site-content .wp-playlist {
+  padding: 0.625em 0.625em 0.3125em;
+}
+
+/* line 158, ../../sources/sass/16.0.media.scss */
+.site-content .wp-playlist-current-item .wp-playlist-item-title {
+  font-weight: 700;
+}
+
+/* line 162, ../../sources/sass/16.0.media.scss */
+.site-content .wp-playlist-current-item .wp-playlist-item-album {
+  font-style: normal;
+}
+
+/* line 166, ../../sources/sass/16.0.media.scss */
+.site-content .wp-playlist-current-item .wp-playlist-item-artist {
+  font-size: 10px;
+  font-size: 0.625rem;
+  font-weight: 800;
+  letter-spacing: 0.1818em;
+  text-transform: uppercase;
+}
+
+/* line 174, ../../sources/sass/16.0.media.scss */
+.site-content .wp-playlist-item {
+  padding: 0 0.3125em;
+  cursor: pointer;
+}
+
+/* line 179, ../../sources/sass/16.0.media.scss */
+.site-content .wp-playlist-item:last-of-type {
+  border-bottom: none;
+}
+
+/* line 183, ../../sources/sass/16.0.media.scss */
+.site-content .wp-playlist-item a {
+  padding: 0.3125em 0;
+  border-bottom: none;
+}
+
+/* line 188, ../../sources/sass/16.0.media.scss */
+.site-content .wp-playlist-item a,
+.site-content .wp-playlist-item a:focus,
+.site-content .wp-playlist-item a:hover {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  background: transparent;
+}
+
+/* line 196, ../../sources/sass/16.0.media.scss */
+.site-content .wp-playlist-item-length {
+  top: 5px;
+}
+
+/* SVG Icons base styles */
+/* line 202, ../../sources/sass/16.0.media.scss */
+.icon {
+  display: inline-block;
+  fill: currentColor;
+  height: 1em;
+  position: relative;
+  /* Align more nicely with capital letters */
+  top: -0.0625em;
+  vertical-align: middle;
+  width: 1em;
+}
+
+/**
+ * 16.1 Galleries 
+ */
+/* line 216, ../../sources/sass/16.0.media.scss */
+.gallery-item {
+  display: inline-block;
+  text-align: left;
+  vertical-align: top;
+  margin: 0 0 1.5em;
+  padding: 0 1em 0 0;
+  width: 50%;
+}
+
+/* line 225, ../../sources/sass/16.0.media.scss */
+.gallery-columns-1 .gallery-item {
+  width: 100%;
+}
+
+/* line 229, ../../sources/sass/16.0.media.scss */
+.gallery-columns-2 .gallery-item {
+  max-width: 50%;
+}
+
+/* line 233, ../../sources/sass/16.0.media.scss */
+.gallery-item a,
+.gallery-item a:hover,
+.gallery-item a:focus {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  background: none;
+  display: inline-block;
+  max-width: 100%;
+}
+
+/* line 243, ../../sources/sass/16.0.media.scss */
+.gallery-item a img {
+  display: block;
+  -webkit-transition: -webkit-filter 0.2s ease-in;
+  transition: -webkit-filter 0.2s ease-in;
+  transition: filter 0.2s ease-in;
+  transition: filter 0.2s ease-in, -webkit-filter 0.2s ease-in;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+/* line 253, ../../sources/sass/16.0.media.scss */
+.gallery-item a:hover img,
+.gallery-item a:focus img {
+  -webkit-filter: opacity(60%);
+  filter: opacity(60%);
+}
+
+/* line 259, ../../sources/sass/16.0.media.scss */
+.gallery-caption {
+  display: block;
+  text-align: left;
+  padding: 0 10px 0 0;
+  margin-bottom: 0;
+}

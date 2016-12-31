@@ -53,9 +53,9 @@
     </script>
 </head>
 
-<body class="home blog hfeed has-header-image has-sidebar ">
+<body class="home blog hfeed has-header-image has-sidebar">
     <a id="nav"></a>
-    <nav class="navbar navbar-fixed-top navbar-inverse" role="navigation" data-spy="affix" data-offset-top="100"> 
+    <nav class="navbar navbar-fixed-top navbar-default" role="navigation" data-spy="affix" data-offset-top="100"> 
         <div class="container">
             <div class="row">
                 <div class="navbar-header"> 
@@ -79,50 +79,386 @@
                 </div>
             </div>
         </div>
-    </nav>
+    </nav>        
 
     <main id="page" class="site" role="main">
-        <div id="masthead" class="header site-header" role="banner">
-            <div class="hero-unit custom-header">
-               <div class="custom-header-media">            
-                   <div class="header__box header__box--h1 site-branding">  
-                        <div class="container">
-                            <div class="row">
+        <div class="site-header" role="banner">
+    
+            <div class="site-breadcrumb visible-* hidden-sm hidden-xs">
+                <div class="container">
+                    <div class="row">
+                        <ul class="breadcrumb">
+                          <li><a href="#">Level 1</a> <span class="divider">/</span></li>
+                          <li><a href="#">Level 2</a> <span class="divider">/</span></li>
+                          <li class="active">Data</li>
+                        </ul> 
+                    </div>
+                </div>
+            </div>
+            
+            <div class="custom-header">
+                <div class="custom-header-media" style="background-image: url(http://lorempixel.com/1080/720/); background-size: cover;"></div> 
+                <div class="custom-header-media-layer"></div>
+                
+                <div class="site-branding">  
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-xs-10 col-sm-9 col-md-7 test">
                                 <h1 class="site-title">H1: Page Title</h1>
-                                <p class="site-description">Subtext for header</p>
+                                <p class="site-description visible-* hidden-sm hidden-xs">Aliquid obcaecati eveniet, est quos unde atque pariatur dolorem, modi architecto nesciunt praesentium eligendi cupiditate quam voluptatum rerum!</p>
                             </div>
                         </div>
                     </div>
-                </div>  
+                </div>
+            </div>  
+        </div> 
+            
+        <div class="site-subheader hidden-* visible-sm visible-xs">  
+            <div class="container">
+                <div class="row">
+                    <p class="site-subheader-text1">Aliquid obcaecati eveniet, est quos unde atque pariatur dolorem, modi architecto nesciunt praesentium eligendi cupiditate quam voluptatum rerum!</p>
+                </div>
             </div>
-        </div>
+        </div> 
         
+        <!--// Start Site Sub-header //-->
+        <div class="site-subheader" style="padding-top: 30px;">
+            <!--// Start Site Sub-header //-->
+            <div class="row">
+                <div class="container">
+                    <div class="col-xs-3 col-sm-2">
+                        <p><img src="http://lorempixel.com/48/48/" class="img-responsive img-circle pull-right"></p>
+                    </div>
+                    <div class="col-xs-9 col-sm-10">
+                        <p>Aliquid obcaecati eveniet, est quos unde atque pariatur dolorem, modi architecto nesciunt praesentium eligendi cupiditate quam voluptatum rerum!</p>
+                    </div>
+                </div>
+            </div>
+            <!--// End Site Sub-header //-->
+        </div> 
+        <!--// End Site Sub-header //-->
+        
+        <hr/>
+        
+        <!--// Start Section //-->
+        <section>           
+            <div class="container-fluid section">
+                <!--// Start Section Row //-->
+                <div class="row">
+                    <div class="container">  
+                        <div class="col-xs-4 col-sm-3 col-md-2">                    
+                            <p><img src="http://lorempixel.com/180/180/" class="img-responsive img-circle"></p>
+                        </div>
+                        <div class="col-xs-8 col-sm-9 col-md-10"> 
+                            <div class="row">
+                                <div class="container-fluid">
+                                    <div class="row">
+                                        <div class="col-xs-12 col-sm-6"> 
+                                           <div class="row">
+                                                <p>Section Sub-title</p>                                                
+                                           </div>                                                             
+                                        </div>
+                                        <div class="col-xs-12 col-sm-6"> 
+                                           <div class="row">
+                                                <div class="col-xs-2">x</div>
+                                                <div class="col-xs-2">x</div>
+                                                <div class="col-xs-2">x</div>
+                                                <div class="col-xs-2">x</div>
+                                                <div class="col-xs-2">x</div>
+                                                <div class="col-xs-2">x</div>
+                                            </div>
+                                        </div>                                        
+                                    </div>
+                                    
+                                    <div class="row">
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus eligendi delectus necessitatibus, minus dolores quisquam molestiae quas esse dignissimos, odit accusantium, ipsum recusandae blanditiis. Laboriosam, quo sit hic quisquam cumque.</p>
+                                    </div>
+                                    
+                                    <div class="row">
+                                        <button class="btn btn-default btn-sm">Click Here</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <hr class="col-xs-10 col-xs-offset-1"/>
+                    </div>
+                </div>
+                <!--// End Section Row //-->
+                
+                <!--// Start Section Row //-->
+                <div class="row">
+                    <div class="container">  
+                        <div class="col-xs-4 col-sm-3 col-md-2">                    
+                            <p><img src="http://lorempixel.com/180/180/" class="img-responsive img-circle"></p>
+                        </div>
+                        <div class="col-xs-8 col-sm-9 col-md-10"> 
+                            <div class="row">
+                                <div class="container-fluid">
+                                    <div class="row">
+                                        <div class="col-xs-12 col-sm-6"> 
+                                           <div class="row">
+                                                <p>Section Sub-title</p>                                                
+                                           </div>                                                             
+                                        </div>
+                                        <div class="col-xs-12 col-sm-6"> 
+                                           <div class="row">
+                                                <div class="col-xs-2">x</div>
+                                                <div class="col-xs-2">x</div>
+                                                <div class="col-xs-2">x</div>
+                                                <div class="col-xs-2">x</div>
+                                                <div class="col-xs-2">x</div>
+                                                <div class="col-xs-2">x</div>
+                                            </div>
+                                        </div>                                        
+                                    </div>
+                                    
+                                    <div class="row">
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus eligendi delectus necessitatibus, minus dolores quisquam molestiae quas esse dignissimos, odit accusantium, ipsum recusandae blanditiis. Laboriosam, quo sit hic quisquam cumque.</p>
+                                    </div>
+                                    
+                                    <div class="row">
+                                        <button class="btn btn-default btn-sm">Click Here</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <hr class="col-xs-10 col-xs-offset-1"/>
+                    </div>
+                </div>
+                <!--// End Section Row //-->
+                
+                <!--// Start Section Row //-->
+                <div class="row">
+                    <div class="container">  
+                        <div class="col-xs-4 col-sm-3 col-md-2">                    
+                            <p><img src="http://lorempixel.com/180/180/" class="img-responsive img-circle"></p>
+                        </div>
+                        <div class="col-xs-8 col-sm-9 col-md-10"> 
+                            <div class="row">
+                                <div class="container-fluid">
+                                    <div class="row">
+                                        <div class="col-xs-12 col-sm-6"> 
+                                           <div class="row">
+                                                <p>Section Sub-title</p>                                                
+                                           </div>                                                             
+                                        </div>
+                                        <div class="col-xs-12 col-sm-6"> 
+                                           <div class="row">
+                                                <div class="col-xs-2">x</div>
+                                                <div class="col-xs-2">x</div>
+                                                <div class="col-xs-2">x</div>
+                                                <div class="col-xs-2">x</div>
+                                                <div class="col-xs-2">x</div>
+                                                <div class="col-xs-2">x</div>
+                                            </div>
+                                        </div>                                        
+                                    </div>
+                                    
+                                    <div class="row">
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus eligendi delectus necessitatibus, minus dolores quisquam molestiae quas esse dignissimos, odit accusantium, ipsum recusandae blanditiis. Laboriosam, quo sit hic quisquam cumque.</p>
+                                    </div>
+                                    
+                                    <div class="row">
+                                        <button class="btn btn-default btn-sm">Click Here</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <hr class="col-xs-10 col-xs-offset-1"/>
+                    </div>
+                </div>
+                <!--// End Section Row //-->
+                
+                <!--// Start Section Row //-->
+                <div class="row">
+                    <div class="container">  
+                        <div class="col-xs-4 col-sm-3 col-md-2">                    
+                            <p><img src="http://lorempixel.com/180/180/" class="img-responsive img-circle"></p>
+                        </div>
+                        <div class="col-xs-8 col-sm-9 col-md-10"> 
+                            <div class="row">
+                                <div class="container-fluid">
+                                    <div class="row">
+                                        <div class="col-xs-12 col-sm-6"> 
+                                           <div class="row">
+                                                <p>Section Sub-title</p>                                                
+                                           </div>                                                             
+                                        </div>
+                                        <div class="col-xs-12 col-sm-6"> 
+                                           <div class="row">
+                                                <div class="col-xs-2">x</div>
+                                                <div class="col-xs-2">x</div>
+                                                <div class="col-xs-2">x</div>
+                                                <div class="col-xs-2">x</div>
+                                                <div class="col-xs-2">x</div>
+                                                <div class="col-xs-2">x</div>
+                                            </div>
+                                        </div>                                        
+                                    </div>
+                                    
+                                    <div class="row">
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus eligendi delectus necessitatibus, minus dolores quisquam molestiae quas esse dignissimos, odit accusantium, ipsum recusandae blanditiis. Laboriosam, quo sit hic quisquam cumque.</p>
+                                    </div>
+                                    
+                                    <div class="row">
+                                        <button class="btn btn-default btn-sm">Click Here</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--// End Section Row //-->
+                
+            </div>
+        </section>
+        <!--// End Section //-->
+        
+        <hr/>
+        
+        <!--// Start Section //-->
+        <section>           
+            <div class="container-fluid" style="padding-top: 15px; padding-bottom: 15px;">
+                <!--// Start Section Row //-->
+                <div class="row">
+                    <div class="container">  
+                        <div class="col-xs-12 col-sm-5 col-md-4">  
+                           <div class="row">
+                               <div class="container-fluid">
+                                   <div class="col-sm-4 col-md-4">
+                                        <p><img src="http://lorempixel.com/180/180/" class="img-responsive img-circle"></p>
+                                   </div>
+                                   <div class="col-sm-8 col-md-8">
+                                       <h4>100,000<br/><small>10% de la audiencia</small></h3>
+                                   </div>
+                               </div>
+                           </div>                  
+                        </div>
+                        <div class="col-xs-12 col-sm-7 col-md-7"> 
+                            <div class="row">
+                                <div class="container-fluid">
+                                    <div class="row">
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus eligendi delectus necessitatibus, minus dolores quisquam molestiae quas esse dignissimos, odit accusantium, ipsum recusandae blanditiis. Laboriosam, quo sit hic quisquam cumque.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+                <!--// End Section Row //-->
+                
+                <!--// Start Section Row //-->
+                <div class="row">
+                    <div class="container">  
+                        <div class="col-xs-12 col-sm-5 col-md-4">  
+                            <p><img src="http://lorempixel.com/180/180/" class="img-responsive img-circle pull-right"></p>     
+                        </div>
+                        <div class="col-xs-12 col-sm-7 col-md-7"> 
+                            <div class="row">
+                                <div class="container-fluid">
+                                    <div class="row">
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus eligendi delectus necessitatibus, minus dolores quisquam molestiae quas esse dignissimos, odit accusantium, ipsum recusandae blanditiis. Laboriosam, quo sit hic quisquam cumque.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--// End Section Row //-->
+                                
+            </div>
+        </section>
+        <!--// End Section //-->
+        
+        <!--// Start Section //-->
         <section>
             <!-- section content goes in here -->            
-            <div class="container-fluid section section__template--alternate">
+            <div class="container-fluid" style="background-color: #f4f4f4; padding-top: 15px; padding-bottom: 15px;">
+                
+                <!--// Start Site Sub-header //-->
+                <div>
+                    <div class="row">
+                        <div class="container">
+                            <div class="col-xs-3 col-sm-2">
+                                <p><img src="http://lorempixel.com/48/48/" class="img-responsive img-circle pull-right"></p>
+                            </div>
+                            <div class="col-xs-9 col-sm-10">
+                                <p>Aliquid obcaecati eveniet, est quos unde atque pariatur dolorem, modi architecto nesciunt praesentium eligendi cupiditate quam voluptatum rerum!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div> 
+                <!--// End Site Sub-header //-->
+                
                 <div class="row">
                     <div class="container">                
                         <div class="row">
-                            <div class="col-xs-12">                    
-                                <h2>H2: Page Sub-title</h2>
+                            <div class="container">     
+                                <div class="col-xs-11 col-xs-offset-1"> 
+                                    <p>&nbsp;</p>                    
+                                    <table width="100%" border="1" class="table-strip">
+                                        <tr>
+                                            <td>&nbsp;</td>
+                                            <td class="text-center">Img 1</td>
+                                            <td class="text-center">Img 2</td>
+                                            <td class="text-center">Img 3</td>
+                                            <td class="text-center">Img 4</td>
+                                            <td class="text-center">Img 5</td>
+                                            <td>&nbsp;</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Media</td>
+                                            <td class="text-center"> • </td>
+                                            <td class="text-center"> • </td>
+                                            <td class="text-center"> • </td>
+                                            <td class="text-center"> • </td>
+                                            <td class="text-center"> • </td>
+                                            <td>Contenido</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Media</td>
+                                            <td class="text-center"> • </td>
+                                            <td class="text-center"> • </td>
+                                            <td class="text-center"> • </td>
+                                            <td class="text-center"> • </td>
+                                            <td class="text-center"> • </td>
+                                            <td>Contenido</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Media</td>
+                                            <td class="text-center"> • </td>
+                                            <td class="text-center"> • </td>
+                                            <td class="text-center"> • </td>
+                                            <td class="text-center"> • </td>
+                                            <td class="text-center"> • </td>
+                                            <td>Contenido</td>
+                                        </tr>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="container">                
+                        <div class="row">
+                            <div class="col-xs-12 text-center">
+                                <p>&nbsp;</p> 
+                                <p> <button class="btn btn-default btn-sm">Click Here</button> </p>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </section>
+        </section>        
+        <!--// End Section //-->
 
         <section>
             <!-- section content goes in here -->              
             <div class="container-fluid section section__block--notitle section__template--normal">
                 <div class="row">
                     <div class="container"> 
-                            
-                        <ul class="breadcrumb">
-                          <li><a href="#">Level 1</a> <span class="divider">/</span></li>
-                          <li><a href="#">Level 2</a> <span class="divider">/</span></li>
-                          <li class="active">Data</li>
-                        </ul>                        
+                        
                         <div class="row">
 
                           <div class="col-sm-6 col-md-4">
