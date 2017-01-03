@@ -1,21 +1,18 @@
 /**
  * 3.0 Alignments
  */
-/* line 8, ../../sources/sass/3.0.alignments.scss */
 .alignleft {
   display: inline;
   float: left;
   margin-right: 1.5em;
 }
 
-/* line 14, ../../sources/sass/3.0.alignments.scss */
 .alignright {
   display: inline;
   float: right;
   margin-left: 1.5em;
 }
 
-/* line 20, ../../sources/sass/3.0.alignments.scss */
 .aligncenter {
   clear: both;
   display: block;

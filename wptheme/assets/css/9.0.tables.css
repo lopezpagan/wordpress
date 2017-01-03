@@ -1,42 +1,35 @@
 /**
  * 9.0 Tables
  */
-/* line 7, ../../sources/sass/9.0.tables.scss */
 table {
   border-collapse: collapse;
   margin: 0 0 1.5em;
   width: 100%;
 }
 
-/* line 13, ../../sources/sass/9.0.tables.scss */
 thead th {
   border-bottom: 2px solid #bbb;
   padding-bottom: 0.5em;
 }
 
-/* line 18, ../../sources/sass/9.0.tables.scss */
 th {
   padding: 0.4em;
   text-align: left;
 }
 
-/* line 23, ../../sources/sass/9.0.tables.scss */
 tr {
   border-bottom: 1px solid #eee;
 }
 
-/* line 27, ../../sources/sass/9.0.tables.scss */
 td {
   padding: 0.4em;
 }
 
-/* line 31, ../../sources/sass/9.0.tables.scss */
 th:first-child,
 td:first-child {
   padding-left: 0;
 }
 
-/* line 36, ../../sources/sass/9.0.tables.scss */
 th:last-child,
 td:last-child {
   padding-right: 0;

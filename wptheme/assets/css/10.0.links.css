@@ -1,18 +1,15 @@
 /**
  * 10.0 Links
  */
-/* line 7, ../../sources/sass/10.0.links.scss */
 a {
   color: #222;
   text-decoration: none;
 }
 
-/* line 12, ../../sources/sass/10.0.links.scss */
 a:focus {
   outline: thin dotted;
 }
 
-/* line 16, ../../sources/sass/10.0.links.scss */
 a:hover,
 a:active {
   color: #000;
@@ -20,7 +17,6 @@ a:active {
 }
 
 /* Hover effects */
-/* line 24, ../../sources/sass/10.0.links.scss */
 .entry-content a,
 .entry-summary a,
 .widget a,
@@ -35,7 +31,6 @@ a:active {
   transition: color 80ms ease-in, box-shadow 130ms ease-in-out, -webkit-box-shadow 130ms ease-in-out;
 }
 
-/* line 38, ../../sources/sass/10.0.links.scss */
 .entry-title a,
 .entry-meta a,
 .page-links a,
@@ -67,7 +62,6 @@ a .nav-title,
   transition: color 80ms ease-in, box-shadow 130ms ease-in-out, -webkit-box-shadow 130ms ease-in-out;
 }
 
-/* line 69, ../../sources/sass/10.0.links.scss */
 .entry-content a:focus,
 .entry-content a:hover,
 .entry-summary a:focus,
@@ -122,14 +116,12 @@ a:hover .nav-title,
 }
 
 /* Fixes linked images */
-/* line 123, ../../sources/sass/10.0.links.scss */
 .entry-content a img,
 .widget a img {
   -webkit-box-shadow: 0 0 0 8px #fff;
   box-shadow: 0 0 0 8px #fff;
 }
 
-/* line 129, ../../sources/sass/10.0.links.scss */
 .post-navigation a:focus .icon,
 .post-navigation a:hover .icon {
   color: #222;

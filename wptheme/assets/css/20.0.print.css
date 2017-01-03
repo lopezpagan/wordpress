@@ -3,7 +3,6 @@
 */
 @media print {
   /* Hide elements */
-  /* line 11, ../../sources/sass/20.0.print.scss */
   form,
   button,
   input,
@@ -31,7 +30,6 @@
     display: none !important;
   }
 
-  /* line 38, ../../sources/sass/20.0.print.scss */
   .entry-footer,
   #comments,
   .site-footer,
@@ -40,42 +38,34 @@
   }
 
   /* Font sizes */
-  /* line 47, ../../sources/sass/20.0.print.scss */
   body {
     font-size: 12pt;
   }
 
-  /* line 51, ../../sources/sass/20.0.print.scss */
   h1 {
     font-size: 24pt;
   }
 
-  /* line 55, ../../sources/sass/20.0.print.scss */
   h2 {
     font-size: 22pt;
   }
 
-  /* line 59, ../../sources/sass/20.0.print.scss */
   h3 {
     font-size: 17pt;
   }
 
-  /* line 63, ../../sources/sass/20.0.print.scss */
   h4 {
     font-size: 12pt;
   }
 
-  /* line 67, ../../sources/sass/20.0.print.scss */
   h5 {
     font-size: 11pt;
   }
 
-  /* line 71, ../../sources/sass/20.0.print.scss */
   h6 {
     font-size: 12pt;
   }
 
-  /* line 75, ../../sources/sass/20.0.print.scss */
   .page .panel-content .entry-title,
   .page-title,
   body.page:not(.twentyseventeen-front-page) .entry-title {
@@ -83,7 +73,6 @@
   }
 
   /* Layout */
-  /* line 83, ../../sources/sass/20.0.print.scss */
   .wrap {
     padding-left: 5% !important;
     padding-right: 5% !important;
@@ -91,18 +80,15 @@
   }
 
   /* Site Branding */
-  /* line 91, ../../sources/sass/20.0.print.scss */
   .site-header {
     background: transparent;
     padding: 0;
   }
 
-  /* line 96, ../../sources/sass/20.0.print.scss */
   .custom-header-media {
     padding: 0;
   }
 
-  /* line 100, ../../sources/sass/20.0.print.scss */
   .twentyseventeen-front-page.has-header-image .site-branding,
   .twentyseventeen-front-page.has-header-video .site-branding,
   .home.blog.has-header-image .site-branding,
@@ -110,44 +96,37 @@
     position: relative;
   }
 
-  /* line 107, ../../sources/sass/20.0.print.scss */
   .site-branding {
     margin-top: 0;
     margin-bottom: 1.75em !important;
     /* override styles added by JavaScript */
   }
 
-  /* line 112, ../../sources/sass/20.0.print.scss */
   .site-title {
     font-size: 25pt;
   }
 
-  /* line 116, ../../sources/sass/20.0.print.scss */
   .site-description {
     font-size: 12pt;
     opacity: 1;
   }
 
   /* Posts */
-  /* line 123, ../../sources/sass/20.0.print.scss */
   .single-featured-image-header {
     background: transparent;
   }
 
-  /* line 127, ../../sources/sass/20.0.print.scss */
   .entry-meta {
     font-size: 9pt;
   }
 
   /* Colors */
-  /* line 133, ../../sources/sass/20.0.print.scss */
   body,
   .site {
     background: none !important;
     /* Brute force since user agents all print differently. */
   }
 
-  /* line 138, ../../sources/sass/20.0.print.scss */
   body,
   a,
   .site-title a,
@@ -159,7 +138,6 @@
     /* Make sure color schemes don't affect to print */
   }
 
-  /* line 148, ../../sources/sass/20.0.print.scss */
   h2,
   h5,
   blockquote,
@@ -172,14 +150,12 @@
     /* Make sure color schemes don't affect to print */
   }
 
-  /* line 159, ../../sources/sass/20.0.print.scss */
   .entry-content blockquote.alignleft,
   .entry-content blockquote.alignright {
     font-size: 11pt;
     width: 34%;
   }
 
-  /* line 165, ../../sources/sass/20.0.print.scss */
   .site-footer {
     padding: 0;
   }

@@ -1,17 +1,14 @@
 /**
 * 18.0 SVG Fallback
 */
-/* line 7, ../../sources/sass/18.0.svgfallbacks.scss */
 .svg-fallback {
   display: none;
 }
 
-/* line 11, ../../sources/sass/18.0.svgfallbacks.scss */
 .no-svg .svg-fallback {
   display: inline-block;
 }
 
-/* line 15, ../../sources/sass/18.0.svgfallbacks.scss */
 .no-svg .dropdown-toggle {
   padding: 0.5em 0 0;
   right: 0;
@@ -19,7 +16,6 @@
   width: 2em;
 }
 
-/* line 22, ../../sources/sass/18.0.svgfallbacks.scss */
 .no-svg .dropdown-toggle .svg-fallback.icon-angle-down {
   font-size: 20px;
   font-size: 1.25rem;
@@ -32,7 +28,6 @@
   transform: rotate(180deg);
 }
 
-/* line 32, ../../sources/sass/18.0.svgfallbacks.scss */
 .no-svg .dropdown-toggle.toggled-on .svg-fallback.icon-angle-down {
   -webkit-transform: rotate(0);
   /* Chrome, Safari, Opera */
@@ -41,13 +36,11 @@
   transform: rotate(0);
 }
 
-/* line 38, ../../sources/sass/18.0.svgfallbacks.scss */
 .no-svg .dropdown-toggle .svg-fallback.icon-angle-down:before {
   content: "\005E";
 }
 
 /* Social Menu fallbacks */
-/* line 44, ../../sources/sass/18.0.svgfallbacks.scss */
 .no-svg .social-navigation a {
   background: transparent;
   color: #222;
@@ -56,7 +49,6 @@
 }
 
 /* Show screen reader text in some cases */
-/* line 53, ../../sources/sass/18.0.svgfallbacks.scss */
 .no-svg .next.page-numbers .screen-reader-text,
 .no-svg .prev.page-numbers .screen-reader-text,
 .no-svg .social-navigation li a .screen-reader-text,

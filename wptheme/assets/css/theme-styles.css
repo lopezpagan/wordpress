@@ -1,135 +1,104 @@
-/**
+/****************************
 * Theme Styles
-**/
-/* line 10, ../../sources/sass/theme-styles.scss */
+****************************/
 body {
   background-color: #FFFFFF;
 }
 
-/* line 14, ../../sources/sass/theme-styles.scss */
 .logo {
   color: #666666 !important;
 }
 
-/* line 18, ../../sources/sass/theme-styles.scss */
 a {
   color: #666666 !important;
 }
 
-/* line 21, ../../sources/sass/theme-styles.scss */
 a:hover, a:focus, a:active {
   color: #666666 !important;
 }
 
-/* line 25, ../../sources/sass/theme-styles.scss */
 .section {
   /**
   *  TEMPLATE COLOR
   **/
 }
-/* line 30, ../../sources/sass/theme-styles.scss */
 .section.section__template--normal {
   background-color: #FFFFFF;
 }
-/* line 33, ../../sources/sass/theme-styles.scss */
 .section.section__template--normal header {
   color: #333333;
   border-bottom: 1px dotted #666666;
 }
-/* line 38, ../../sources/sass/theme-styles.scss */
 .section.section__template--normal h2 {
   color: #333333;
 }
-/* line 39, ../../sources/sass/theme-styles.scss */
 .section.section__template--normal h3 {
   color: #666666;
 }
-/* line 40, ../../sources/sass/theme-styles.scss */
 .section.section__template--normal h4 {
   color: #333333;
 }
-/* line 41, ../../sources/sass/theme-styles.scss */
 .section.section__template--normal h5 {
   color: #333333;
 }
-/* line 42, ../../sources/sass/theme-styles.scss */
 .section.section__template--normal h6 {
   color: #666666;
 }
-/* line 43, ../../sources/sass/theme-styles.scss */
 .section.section__template--normal p {
   color: #333333;
 }
-/* line 44, ../../sources/sass/theme-styles.scss */
 .section.section__template--normal ul {
   color: #333333;
 }
-/* line 45, ../../sources/sass/theme-styles.scss */
 .section.section__template--normal ul li {
   color: #333333;
 }
-/* line 46, ../../sources/sass/theme-styles.scss */
 .section.section__template--normal ul li a {
   color: #666666 !important;
 }
-/* line 48, ../../sources/sass/theme-styles.scss */
 .section.section__template--normal a {
   color: #666666 !important;
 }
-/* line 51, ../../sources/sass/theme-styles.scss */
 .section.section__template--normal a:hover, .section.section__template--normal a:focus, .section.section__template--normal a:active {
   color: #666666 !important;
 }
-/* line 56, ../../sources/sass/theme-styles.scss */
 .section.section__template--alternate {
   background-color: #333333;
 }
-/* line 59, ../../sources/sass/theme-styles.scss */
 .section.section__template--alternate header {
   color: #FFFFFF;
   border-bottom: 1px dotted #666666;
 }
-/* line 64, ../../sources/sass/theme-styles.scss */
 .section.section__template--alternate h2 {
   color: #FFFFFF;
 }
-/* line 65, ../../sources/sass/theme-styles.scss */
 .section.section__template--alternate h3 {
   color: #FFFFFF;
 }
-/* line 66, ../../sources/sass/theme-styles.scss */
 .section.section__template--alternate h4 {
   color: #FFFFFF;
 }
-/* line 67, ../../sources/sass/theme-styles.scss */
 .section.section__template--alternate h5 {
   color: #FFFFFF;
 }
-/* line 68, ../../sources/sass/theme-styles.scss */
 .section.section__template--alternate h6 {
   color: #666666;
 }
-/* line 69, ../../sources/sass/theme-styles.scss */
 .section.section__template--alternate p {
   color: #FFFFFF;
 }
-/* line 70, ../../sources/sass/theme-styles.scss */
 .section.section__template--alternate ul {
   color: #FFFFFF;
 }
-/* line 71, ../../sources/sass/theme-styles.scss */
 .section.section__template--alternate ul li {
   color: #FFFFFF;
 }
-/* line 72, ../../sources/sass/theme-styles.scss */
 .section.section__template--alternate ul li a {
   color: #666666 !important;
 }
-/* line 74, ../../sources/sass/theme-styles.scss */
 .section.section__template--alternate a {
   color: #666666 !important;
 }
-/* line 77, ../../sources/sass/theme-styles.scss */
 .section.section__template--alternate a:hover, .section.section__template--alternate a:focus, .section.section__template--alternate a:active {
   color: #666666 !important;
 }

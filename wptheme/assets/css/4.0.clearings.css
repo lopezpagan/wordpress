@@ -1,7 +1,6 @@
 /**
  * 4.0 Clearings
  */
-/* line 7, ../../sources/sass/4.0.clearings.scss */
 .clear:before,
 .clear:after,
 .entry-content:before,
@@ -33,7 +32,6 @@
   table-layout: fixed;
 }
 
-/* line 38, ../../sources/sass/4.0.clearings.scss */
 .clear:after,
 .entry-content:after,
 .entry-footer:after,

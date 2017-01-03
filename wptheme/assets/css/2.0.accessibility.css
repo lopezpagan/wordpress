@@ -2,7 +2,6 @@
  * 2.0 - Accessibility
  */
 /* Text meant only for screen readers. */
-/* line 8, ../../sources/sass/2.0.accessibility.scss */
 .screen-reader-text {
   clip: rect(1px, 1px, 1px, 1px);
   height: 1px;
@@ -13,7 +12,6 @@
   /* Many screen reader and browser combinations announce broken words as they would appear visually. */
 }
 
-/* line 17, ../../sources/sass/2.0.accessibility.scss */
 .screen-reader-text:focus {
   background-color: #f1f1f1;
   -webkit-border-radius: 3px;

@@ -1,20 +1,17 @@
 /**
  * 14.0 Comments
  */
-/* line 7, ../../sources/sass/14.0.comments.scss */
 #comments {
   clear: both;
   padding: 2em 0 0.5em;
 }
 
-/* line 12, ../../sources/sass/14.0.comments.scss */
 .comments-title {
   font-size: 20px;
   font-size: 1.25rem;
   margin-bottom: 1.5em;
 }
 
-/* line 18, ../../sources/sass/14.0.comments.scss */
 .comment-list,
 .comment-list .children {
   list-style: none;
@@ -22,17 +19,14 @@
   padding: 0;
 }
 
-/* line 25, ../../sources/sass/14.0.comments.scss */
 .comment-list li:before {
   display: none;
 }
 
-/* line 29, ../../sources/sass/14.0.comments.scss */
 .comment-body {
   margin-left: 65px;
 }
 
-/* line 33, ../../sources/sass/14.0.comments.scss */
 .comment-author {
   font-size: 16px;
   font-size: 1rem;
@@ -41,7 +35,6 @@
   z-index: 2;
 }
 
-/* line 41, ../../sources/sass/14.0.comments.scss */
 .comment-author .avatar {
   height: 50px;
   left: -65px;
@@ -49,17 +42,14 @@
   width: 50px;
 }
 
-/* line 48, ../../sources/sass/14.0.comments.scss */
 .comment-author .says {
   display: none;
 }
 
-/* line 52, ../../sources/sass/14.0.comments.scss */
 .comment-meta {
   margin-bottom: 1.5em;
 }
 
-/* line 56, ../../sources/sass/14.0.comments.scss */
 .comment-metadata {
   color: #767676;
   font-size: 10px;
@@ -69,18 +59,15 @@
   text-transform: uppercase;
 }
 
-/* line 65, ../../sources/sass/14.0.comments.scss */
 .comment-metadata a {
   color: #767676;
 }
 
-/* line 69, ../../sources/sass/14.0.comments.scss */
 .comment-metadata a.comment-edit-link {
   color: #222;
   margin-left: 1em;
 }
 
-/* line 74, ../../sources/sass/14.0.comments.scss */
 .comment-body {
   color: #333;
   font-size: 14px;
@@ -88,13 +75,11 @@
   margin-bottom: 4em;
 }
 
-/* line 81, ../../sources/sass/14.0.comments.scss */
 .comment-reply-link {
   font-weight: 800;
   position: relative;
 }
 
-/* line 86, ../../sources/sass/14.0.comments.scss */
 .comment-reply-link .icon {
   color: #222;
   left: -2em;
@@ -104,20 +89,17 @@
   width: 1em;
 }
 
-/* line 95, ../../sources/sass/14.0.comments.scss */
 .children .comment-author .avatar {
   height: 30px;
   left: -45px;
   width: 30px;
 }
 
-/* line 101, ../../sources/sass/14.0.comments.scss */
 .bypostauthor > .comment-body > .comment-meta > .comment-author .avatar {
   border: 1px solid #333;
   padding: 2px;
 }
 
-/* line 106, ../../sources/sass/14.0.comments.scss */
 .no-comments,
 .comment-awaiting-moderation {
   color: #767676;
@@ -126,12 +108,10 @@
   font-style: italic;
 }
 
-/* line 114, ../../sources/sass/14.0.comments.scss */
 .comments-pagination {
   margin: 2em 0 3em;
 }
 
-/* line 118, ../../sources/sass/14.0.comments.scss */
 .form-submit {
   text-align: right;
 }

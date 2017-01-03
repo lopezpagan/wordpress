@@ -2,7 +2,6 @@
 /**
  * 5.0 Typography
  */
-/* line 7, ../../sources/sass/5.0.typography.scss */
 body,
 button,
 input,
@@ -16,7 +15,6 @@ textarea {
   line-height: 1.66;
 }
 
-/* line 20, ../../sources/sass/5.0.typography.scss */
 h1,
 h2,
 h3,
@@ -29,7 +27,6 @@ h6 {
   padding: 1.5em 0 0;
 }
 
-/* line 32, ../../sources/sass/5.0.typography.scss */
 h1:first-child,
 h2:first-child,
 h3:first-child,
@@ -39,14 +36,12 @@ h6:first-child {
   padding-top: 0;
 }
 
-/* line 41, ../../sources/sass/5.0.typography.scss */
 h1 {
   font-size: 24px;
   font-size: 1.5rem;
   font-weight: 300;
 }
 
-/* line 47, ../../sources/sass/5.0.typography.scss */
 h2 {
   color: #666;
   font-size: 20px;
@@ -54,7 +49,6 @@ h2 {
   font-weight: 300;
 }
 
-/* line 54, ../../sources/sass/5.0.typography.scss */
 h3 {
   color: #333;
   font-size: 18px;
@@ -62,7 +56,6 @@ h3 {
   font-weight: 300;
 }
 
-/* line 61, ../../sources/sass/5.0.typography.scss */
 h4 {
   color: #333;
   font-size: 16px;
@@ -70,7 +63,6 @@ h4 {
   font-weight: 800;
 }
 
-/* line 68, ../../sources/sass/5.0.typography.scss */
 h5 {
   color: #767676;
   font-size: 13px;
@@ -80,7 +72,6 @@ h5 {
   text-transform: uppercase;
 }
 
-/* line 77, ../../sources/sass/5.0.typography.scss */
 h6 {
   color: #333;
   font-size: 15px;
@@ -88,13 +79,11 @@ h6 {
   font-weight: 800;
 }
 
-/* line 84, ../../sources/sass/5.0.typography.scss */
 p {
   margin: 0 0 1.5em;
   padding: 0;
 }
 
-/* line 89, ../../sources/sass/5.0.typography.scss */
 dfn,
 cite,
 em,
@@ -102,7 +91,6 @@ i {
   font-style: italic;
 }
 
-/* line 96, ../../sources/sass/5.0.typography.scss */
 blockquote {
   color: #666;
   font-size: 18px;
@@ -114,7 +102,6 @@ blockquote {
   padding: 0;
 }
 
-/* line 107, ../../sources/sass/5.0.typography.scss */
 blockquote cite {
   display: block;
   font-style: normal;
@@ -122,12 +109,10 @@ blockquote cite {
   margin-top: 0.5em;
 }
 
-/* line 114, ../../sources/sass/5.0.typography.scss */
 address {
   margin: 0 0 1.5em;
 }
 
-/* line 118, ../../sources/sass/5.0.typography.scss */
 pre {
   background: #eee;
   font-family: "Courier 10 Pitch", Courier, monospace;
@@ -140,7 +125,6 @@ pre {
   padding: 1.6em;
 }
 
-/* line 130, ../../sources/sass/5.0.typography.scss */
 code,
 kbd,
 tt,
@@ -150,48 +134,40 @@ var {
   font-size: 0.9375rem;
 }
 
-/* line 139, ../../sources/sass/5.0.typography.scss */
 abbr,
 acronym {
   border-bottom: 1px dotted #666;
   cursor: help;
 }
 
-/* line 145, ../../sources/sass/5.0.typography.scss */
 mark,
 ins {
   background: #eee;
   text-decoration: none;
 }
 
-/* line 151, ../../sources/sass/5.0.typography.scss */
 big {
   font-size: 125%;
 }
 
-/* line 155, ../../sources/sass/5.0.typography.scss */
 blockquote {
   quotes: "" "";
 }
 
-/* line 159, ../../sources/sass/5.0.typography.scss */
 q {
   quotes: "“" "”" "‘" "’";
 }
 
-/* line 163, ../../sources/sass/5.0.typography.scss */
 blockquote:before,
 blockquote:after {
   content: "";
 }
 
-/* line 168, ../../sources/sass/5.0.typography.scss */
 :focus {
   outline: none;
 }
 
 /* Typography for Arabic Font */
-/* line 174, ../../sources/sass/5.0.typography.scss */
 html[lang="ar"] body,
 html[lang="ar"] button,
 html[lang="ar"] input,
@@ -230,7 +206,6 @@ html[lang="ur"] textarea {
   font-family: Tahoma, Arial, sans-serif;
 }
 
-/* line 212, ../../sources/sass/5.0.typography.scss */
 html[lang="ar"] h1,
 html[lang="ar"] h2,
 html[lang="ar"] h3,
@@ -277,7 +252,6 @@ html[lang="ur"] h6 {
 }
 
 /* Typography for Chinese Font */
-/* line 259, ../../sources/sass/5.0.typography.scss */
 html[lang^="zh-"] body,
 html[lang^="zh-"] button,
 html[lang^="zh-"] input,
@@ -286,7 +260,6 @@ html[lang^="zh-"] textarea {
   font-family: "PingFang TC", "Helvetica Neue", Helvetica, STHeitiTC-Light, Arial, sans-serif;
 }
 
-/* line 267, ../../sources/sass/5.0.typography.scss */
 html[lang^="zh-"] h1,
 html[lang^="zh-"] h2,
 html[lang^="zh-"] h3,
@@ -297,7 +270,6 @@ html[lang^="zh-"] h6 {
 }
 
 /* Typography for Cyrillic Font */
-/* line 278, ../../sources/sass/5.0.typography.scss */
 html[lang="bg-BG"] body,
 html[lang="bg-BG"] button,
 html[lang="bg-BG"] input,
@@ -316,7 +288,6 @@ html[lang="uk"] textarea {
   font-family: "Helvetica Neue", Helvetica, "Segoe UI", Arial, sans-serif;
 }
 
-/* line 296, ../../sources/sass/5.0.typography.scss */
 html[lang="bg-BG"] h1,
 html[lang="bg-BG"] h2,
 html[lang="bg-BG"] h3,
@@ -340,7 +311,6 @@ html[lang="uk"] h6 {
 }
 
 /* Typography for Devanagari Font */
-/* line 320, ../../sources/sass/5.0.typography.scss */
 html[lang="bn-BD"] body,
 html[lang="bn-BD"] button,
 html[lang="bn-BD"] input,
@@ -359,7 +329,6 @@ html[lang="mr-IN"] textarea {
   font-family: Arial, sans-serif;
 }
 
-/* line 338, ../../sources/sass/5.0.typography.scss */
 html[lang="bn-BD"] h1,
 html[lang="bn-BD"] h2,
 html[lang="bn-BD"] h3,
@@ -382,7 +351,6 @@ html[lang="mr-IN"] h6 {
 }
 
 /* Typography for Greek Font */
-/* line 361, ../../sources/sass/5.0.typography.scss */
 html[lang="el"] body,
 html[lang="el"] button,
 html[lang="el"] input,
@@ -391,7 +359,6 @@ html[lang="el"] textarea {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-/* line 369, ../../sources/sass/5.0.typography.scss */
 html[lang="el"] h1,
 html[lang="el"] h2,
 html[lang="el"] h3,
@@ -403,7 +370,6 @@ html[lang="el"] h6 {
 }
 
 /* Typography for Gujarati Font */
-/* line 381, ../../sources/sass/5.0.typography.scss */
 html[lang="gu-IN"] body,
 html[lang="gu-IN"] button,
 html[lang="gu-IN"] input,
@@ -412,7 +378,6 @@ html[lang="gu-IN"] textarea {
   font-family: Arial, sans-serif;
 }
 
-/* line 389, ../../sources/sass/5.0.typography.scss */
 html[lang="gu-IN"] h1,
 html[lang="gu-IN"] h2,
 html[lang="gu-IN"] h3,
@@ -423,7 +388,6 @@ html[lang="gu-IN"] h6 {
 }
 
 /* Typography for Hebrew Font */
-/* line 400, ../../sources/sass/5.0.typography.scss */
 html[lang="he-IL"] body,
 html[lang="he-IL"] button,
 html[lang="he-IL"] input,
@@ -432,7 +396,6 @@ html[lang="he-IL"] textarea {
   font-family: "Arial Hebrew", Arial, sans-serif;
 }
 
-/* line 408, ../../sources/sass/5.0.typography.scss */
 html[lang="he-IL"] h1,
 html[lang="he-IL"] h2,
 html[lang="he-IL"] h3,
@@ -443,7 +406,6 @@ html[lang="he-IL"] h6 {
 }
 
 /* Typography for Japanese Font */
-/* line 419, ../../sources/sass/5.0.typography.scss */
 html[lang="ja"] body,
 html[lang="ja"] button,
 html[lang="ja"] input,
@@ -452,7 +414,6 @@ html[lang="ja"] textarea {
   font-family: "Hiragino Kaku Gothic Pro", Meiryo, sans-serif;
 }
 
-/* line 427, ../../sources/sass/5.0.typography.scss */
 html[lang="ja"] h1,
 html[lang="ja"] h2,
 html[lang="ja"] h3,
@@ -463,7 +424,6 @@ html[lang="ja"] h6 {
 }
 
 /* Typography for Korean font */
-/* line 438, ../../sources/sass/5.0.typography.scss */
 html[lang="ko-KR"] body,
 html[lang="ko-KR"] button,
 html[lang="ko-KR"] input,
@@ -472,7 +432,6 @@ html[lang="ko-KR"] textarea {
   font-family: "Apple SD Gothic Neo", "Malgun Gothic", "Nanum Gothic", Dotum, sans-serif;
 }
 
-/* line 446, ../../sources/sass/5.0.typography.scss */
 html[lang="ko-KR"] h1,
 html[lang="ko-KR"] h2,
 html[lang="ko-KR"] h3,
@@ -483,7 +442,6 @@ html[lang="ko-KR"] h6 {
 }
 
 /* Typography for Thai Font */
-/* line 457, ../../sources/sass/5.0.typography.scss */
 html[lang="th"] h1,
 html[lang="th"] h2,
 html[lang="th"] h3,
@@ -494,7 +452,6 @@ html[lang="th"] h6 {
   font-family: "Sukhumvit Set", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-/* line 467, ../../sources/sass/5.0.typography.scss */
 html[lang="th"] body,
 html[lang="th"] button,
 html[lang="th"] input,
@@ -505,7 +462,6 @@ html[lang="th"] textarea {
 }
 
 /* Remove letter-spacing for all non-latin alphabets */
-/* line 478, ../../sources/sass/5.0.typography.scss */
 html[lang="ar"] *,
 html[lang="ary"] *,
 html[lang="azb"] *,

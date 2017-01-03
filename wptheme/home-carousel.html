@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0">
     
-    <title>Front End Project</title>
+    <title>Front End Project Title</title>
     <meta name="description" content=""/>
     <meta name="keywords" content="" />
     <meta name="author" content="Tony López Pagán" />
@@ -53,9 +53,9 @@
     </script>
 </head>
 
-<body class="home blog hfeed has-header-image has-sidebar">
-    <a id="nav"></a>
-    <nav class="navbar navbar-fixed-top navbar-default" role="navigation" data-spy="affix" data-offset-top="100"> 
+<body>
+<header>
+    <nav class="navbar yamm navbar-fixed-top navbar-default" role="navigation" data-spy="affix" data-offset-top="100"> 
         <div class="container">
             <div class="row">
                 <div class="navbar-header"> 
@@ -73,303 +73,588 @@
                 <div class="navbar-collapse collapse"> 
                     <ul class="nav navbar-nav navbar-right"> 
                         <li class="active"> <a href="#" class="page-scroll">Menu 1</a> </li>
-                        <li> <a href="#" class="page-scroll">Menu 2</a> </li>
-                        <li> <a href="#" class="page-scroll">Menu 3</a> </li>
+                        <li class=""> <a href="#" class="page-scroll">Menu 2</a> </li>
+                        <li class=""> <a href="#" class="page-scroll">Menu 3</a> </li>
+                        
+                        <li class="dropdown">                        
+                         <a href="#" data-toggle="dropdown" class="dropdown-toggle" aria-expanded="true">Mega Menu<b class="caret"></b></a>
+                         
+                          <ul class="dropdown-menu">
+                            <li>
+                              <!-- Content container to add padding -->
+                              <div class="yamm-content">
+                                <div class="row">
+                                  <ul class="col-sm-3 list-unstyled">
+                                    <li>
+                                      <p><strong>Section Title</strong></p>
+                                    </li>
+                                    <li>List Item</li>
+                                    <li>List Item</li>
+                                    <li>List Item</li>
+                                    <li>List Item</li>
+                                    <li>List Item</li>
+                                    <li>List Item</li>
+                                  </ul>
+                                  <ul class="col-sm-3 list-unstyled">
+                                    <li>
+                                      <p><strong>Links Title</strong></p>
+                                    </li>
+                                    <li><a href="#"> Link Item </a></li>
+                                    <li><a href="#"> Link Item </a></li>
+                                    <li><a href="#"> Link Item </a></li>
+                                    <li><a href="#"> Link Item </a></li>
+                                    <li><a href="#"> Link Item </a></li>
+                                    <li><a href="#"> Link Item </a></li>
+                                  </ul>
+                                  <ul class="col-sm-3 list-unstyled">
+                                    <li>
+                                      <p><strong>Section Title</strong></p>
+                                    </li>
+                                    <li>List Item</li>
+                                    <li>List Item</li>
+                                    <li>List Item</li>
+                                    <li>List Item</li>
+                                    <li>List Item</li>
+                                    <li>List Item</li>
+                                  </ul>
+                                  <ul class="col-sm-3 list-unstyled">
+                                    <li>
+                                      <p><strong>Section Title</strong></p>
+                                    </li>
+                                    <li>List Item</li>
+                                    <li>List Item</li>
+                                    <li>
+                                      <ul>
+                                        <li><a href="#"> Link Item </a></li>
+                                        <li><a href="#"> Link Item </a></li>
+                                        <li><a href="#"> Link Item </a></li>
+                                      </ul>
+                                    </li>
+                                  </ul>
+                                </div>
+                              </div>
+                            </li>
+                          </ul>
+                        </li>
+                        
                     </ul> 
                 </div>
             </div>
         </div>
-    </nav>        
+    </nav>       
 
-    <main id="page" class="site" role="main">
-    
-        <div class="site-breadcrumb hidden-sm hidden-xs">
-            <div class="container">
-                <div class="row">
-                    <ul class="breadcrumb">
-                      <li><a href="#">Level 1</a> <span class="divider">/</span></li>
-                      <li><a href="#">Level 2</a> <span class="divider">/</span></li>
-                      <li class="active">Data</li>
-                    </ul> 
+<div id="page" class="page">
+  <section class="page--breadcrumb hidden-sm hidden-xs">
+        <div class="container">
+            <div class="row">
+                <ul class="breadcrumb">
+                  <li><a href="#">Level 1</a></li>
+                  <li><a href="#">Level 2</a></li>
+                  <li class="active">Data</li>
+                </ul> 
+            </div>
+        </div>
+    </section>
+            
+    <section id="page-carousel" class="carousel slide" data-ride="carousel">      
+         <ol class="carousel-indicators">
+            <li data-target="#page-carousel" data-slide-to="0" class="active"></li>
+         </ol>
+
+         <div class="carousel-inner">
+             <div class="item active">
+                <div class="slide1"></div>
+                <div class="carousel-opacity-layer"></div>
+                <div class="carousel-caption">         
+                   <div class="container">
+                      <div class="row no-gutter">
+                          <div class="col-lg-7 col-md-8 col-sm-9 col-xs-12">
+                               <div class="page--header">
+                                   <h1 class="page--header__title">Page Header Title</h1>
+                                   <p class="page--header__subtitle hidden-sm hidden-xs">Aliquid obcaecati eveniet, est quos unde atque pariatur dolorem, modi architecto nesciunt praesentium eligendi cupiditate quam voluptatum rerum!</p>
+                                   <img src="http://lorempixel.com/80/80/" class="img-circle">
+                               </div>                      
+                          </div>                   
+                       </div>             
+                   </div>                       
+                </div>
+             </div>
+         </div>
+
+         <a class="left carousel-control" href="#site-carousel" data-slide="prev">
+             <span class="glyphicon glyphicon-chevron-left"></span>
+         </a>
+
+         <a class="right carousel-control" href="#site-carousel" data-slide="next">
+             <span class="glyphicon glyphicon-chevron-right"></span>
+         </a>
+   </section>
+            
+   <section class="jumbotron">            
+       <div class="container">
+          <div class="row no-gutter">
+              <div class="col-lg-7 col-md-8 col-sm-9 col-xs-12">
+                   <div class="page--header">
+                       <h1 class="page--header__title">Page Header Title</h1>
+                       <p class="page--header__subtitle hidden-sm hidden-xs">Aliquid obcaecati eveniet, est quos unde atque pariatur dolorem, modi architecto nesciunt praesentium eligendi cupiditate quam voluptatum rerum!</p>
+                       <img src="http://lorempixel.com/80/80/" class="img-circle">
+                   </div>                      
+              </div>                   
+           </div>             
+       </div>
+   </section>
+            
+    <section class="page--header__subtitle hidden-lg hidden-md">  
+        <div class="container">
+            <div class="row">
+                <p>Aliquid obcaecati eveniet, est quos unde atque pariatur dolorem!</p>
+            </div>
+        </div>
+    </section> 
+        
+    <!--// Start Site Sub-header //-->
+    <section class="page--support__text">
+        <!--// Start Site Sub-header //-->
+        <div class="container">
+           <div class="row">
+               <div class="well add-margin-right">
+                <img src="http://lorempixel.com/48/48/" class="img-responsive img-circle pull-left"> Aliquid obcaecati eveniet, est quos unde atque pariatur dolorem, modi architecto nesciunt praesentium eligendi cupiditate quam voluptatum rerum!
                 </div>
             </div>
         </div>
-            
-        <div id="#site-carousel" class="carousel slide" data-ride="carousel">      <ol class="carousel-indicators">
-                <li data-target="#site-carousel" data-slide-to="0" class="active"></li>
-             </ol>
-             
-             <div class="carousel-inner">
-                 <div class="item active">
-                    <div class="slide1"></div>
-                    <div class="carousel-opacity-layer"></div>
-                    <div class="carousel-caption">
-                        <div class="col-lg-7 col-md-8 col-sm-9 col-xs-10">
-                            <h1>Page Header</h1>
-                            <p class="page-subheader hidden-sm hidden-xs">Aliquid obcaecati eveniet, est quos unde atque pariatur dolorem, modi architecto nesciunt praesentium eligendi cupiditate quam voluptatum rerum!</p>
-                            <img src="http://lorempixel.com/80/80/" class="img-circle"> 
-                        </div>                        
+        <!--// End Site Sub-header //-->
+    </section> 
+    <!--// End Site Sub-header //-->
+        
+    <hr/>
+
+    <!--// Start Section //-->
+    <section class="section">           
+        <div class="container">               
+            <!--// Start Section Row //-->
+            <div class="row media--item">
+                <div class="col-xs-4 col-sm-3 col-md-2">                
+                    <p><img src="http://lorempixel.com/180/180/" class="media--item__logo img-responsive img-circle"></p>
+                </div>
+                <div class="col-xs-8 col-sm-9 col-md-10 media--item__data">
+                    <div class="col-xs-12"> 
+                        <h4 class="media--item__title pull-left">Section Sub-title</h4> 
+                        <ul class="media--item__icons pull-right">
+                          <li>
+                              <a href="#"><i class="glyphicon glyphicon-list-alt"></i></a>
+                          </li>
+                          <li>
+                              <a href="#"><i class="glyphicon glyphicon-blackboard"></i></a>
+                          </li>
+                          <li>
+                              <a href="#"><i class="glyphicon glyphicon-unchecked"></i></a>
+                          </li>
+                          <li>
+                              <a href="#"><i class="glyphicon glyphicon-phone"></i></a>
+                          </li>
+                          <li>
+                              <a href="#"><i class="glyphicon glyphicon-thumbs-up"></i></a>
+                          </li>                           
+                        </ul>   
+                    </div>      
+                    <div class="col-xs-12">
+                        <p class="media--item__description hidden-xs">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus eligendi delectus necessitatibus, minus dolores quisquam molestiae quas esse dignissimos, odit accusantium, ipsum recusandae blanditiis. Laboriosam, quo sit hic quisquam cumque.</p>
+
+                        <button class="btn btn-mediaitem btn-default btn-sm">Click Here</button>
                     </div>
-                 </div>
-             </div>
-             
-             <a class="left carousel-control" href="#site-carousel" data-slide="prev">
-                 <span class="glyphicon glyphicon-chevron-left"></span>
-             </a>
-             
-             <a class="right carousel-control" href="#site-carousel" data-slide="next">
-                 <span class="glyphicon glyphicon-chevron-right"></span>
-             </a>
-       </div>
-            
-        <div class="site-subheader hidden-lg hidden-md">  
-            <div class="container">
-                <div class="row">
-                    <p>Aliquid obcaecati eveniet, est quos unde atque pariatur dolorem, modi architecto nesciunt praesentium eligendi cupiditate quam voluptatum rerum!</p>
+                    <hr class="col-xs-11 media--item__divider"/>
                 </div>
             </div>
-        </div> 
-        
-        
-        <!--// Start Site Sub-header //-->
-        <div class="page-subtitle">
-            <!--// Start Site Sub-header //-->
-            <div class="container">
-               <div class="row">
-                   <div class="well add-margin-right">
-                    <img src="http://lorempixel.com/48/48/" class="img-responsive img-circle pull-left"> Aliquid obcaecati eveniet, est quos unde atque pariatur dolorem, modi architecto nesciunt praesentium eligendi cupiditate quam voluptatum rerum!
+            <!--// End Section Row //-->              
+            <!--// Start Section Row //-->
+            <div class="row media--item">
+                <div class="col-xs-4 col-sm-3 col-md-2 media--item__logo">                
+                    <p><img src="http://lorempixel.com/180/180/" class="img-responsive img-circle"></p>
+                </div>
+                <div class="col-xs-8 col-sm-9 col-md-10 media--item__data">
+                    <div class="col-xs-12"> 
+                        <h4 class="media--item__title pull-left">Section Sub-title</h4> 
+                        <ul class="media--item__icons pull-right">
+                          <li>
+                              <a href="#"><i class="glyphicon glyphicon-list-alt"></i></a>
+                          </li>
+                          <li>
+                              <a href="#"><i class="glyphicon glyphicon-blackboard"></i></a>
+                          </li>
+                          <li>
+                              <a href="#"><i class="glyphicon glyphicon-unchecked"></i></a>
+                          </li>
+                          <li>
+                              <a href="#"><i class="glyphicon glyphicon-phone"></i></a>
+                          </li>
+                          <li>
+                              <a href="#"><i class="glyphicon glyphicon-thumbs-up"></i></a>
+                          </li>                           
+                        </ul>   
+                    </div>      
+                    <div class="col-xs-12">
+                        <p class="media--item__description hidden-xs">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus eligendi delectus necessitatibus, minus dolores quisquam molestiae quas esse dignissimos, odit accusantium, ipsum recusandae blanditiis. Laboriosam, quo sit hic quisquam cumque.</p>
+
+                        <button class="btn btn-mediaitem btn-default btn-sm">Click Here</button>
                     </div>
+                    <hr class="col-xs-11 media--item__divider"/>
+                </div>
+            </div>
+            <!--// End Section Row //-->              
+            <!--// Start Section Row //-->
+            <div class="row media--item">
+                <div class="col-xs-4 col-sm-3 col-md-2 media--item__logo">                
+                    <p><img src="http://lorempixel.com/180/180/" class="img-responsive img-circle"></p>
+                </div>
+                <div class="col-xs-8 col-sm-9 col-md-10 media--item__data">
+                    <div class="col-xs-12"> 
+                        <h4 class="media--item__title pull-left">Section Sub-title</h4> 
+                        <ul class="media--item__icons pull-right">
+                          <li>
+                              <a href="#"><i class="glyphicon glyphicon-list-alt"></i></a>
+                          </li>
+                          <li>
+                              <a href="#"><i class="glyphicon glyphicon-blackboard"></i></a>
+                          </li>
+                          <li>
+                              <a href="#"><i class="glyphicon glyphicon-unchecked"></i></a>
+                          </li>
+                          <li>
+                              <a href="#"><i class="glyphicon glyphicon-phone"></i></a>
+                          </li>
+                          <li>
+                              <a href="#"><i class="glyphicon glyphicon-thumbs-up"></i></a>
+                          </li>                           
+                        </ul>   
+                    </div>      
+                    <div class="col-xs-12">
+                        <p class="media--item__description hidden-xs">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus eligendi delectus necessitatibus, minus dolores quisquam molestiae quas esse dignissimos, odit accusantium, ipsum recusandae blanditiis. Laboriosam, quo sit hic quisquam cumque.</p>
+
+                        <button class="btn btn-mediaitem btn-default btn-sm">Click Here</button>
+                    </div>
+                    <hr class="col-xs-11 media--item__divider"/>
+                </div>
+            </div>
+            <!--// End Section Row //-->              
+            <!--// Start Section Row //-->
+            <div class="row media--item">
+                <div class="col-xs-4 col-sm-3 col-md-2 media--item__logo">                
+                    <p><img src="http://lorempixel.com/180/180/" class="img-responsive img-circle"></p>
+                </div>
+                <div class="col-xs-8 col-sm-9 col-md-10 media--item__data">
+                    <div class="col-xs-12"> 
+                        <h4 class="media--item__title pull-left">Section Sub-title</h4> 
+                        <ul class="media--item__icons pull-right">
+                          <li>
+                              <a href="#"><i class="glyphicon glyphicon-list-alt"></i></a>
+                          </li>
+                          <li>
+                              <a href="#"><i class="glyphicon glyphicon-blackboard"></i></a>
+                          </li>
+                          <li>
+                              <a href="#"><i class="glyphicon glyphicon-unchecked"></i></a>
+                          </li>
+                          <li>
+                              <a href="#"><i class="glyphicon glyphicon-phone"></i></a>
+                          </li>
+                          <li>
+                              <a href="#"><i class="glyphicon glyphicon-thumbs-up"></i></a>
+                          </li>                           
+                        </ul>   
+                    </div>      
+                    <div class="col-xs-12">
+                        <p class="media--item__description hidden-xs">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus eligendi delectus necessitatibus, minus dolores quisquam molestiae quas esse dignissimos, odit accusantium, ipsum recusandae blanditiis. Laboriosam, quo sit hic quisquam cumque.</p>
+
+                        <button class="btn btn-mediaitem btn-default btn-sm">Click Here</button>
+                    </div>
+                    <hr class="col-xs-11 media--item__divider"/>
+                </div>
+            </div>
+            <!--// End Section Row //-->
+
+        </div>
+    </section>
+    <!--// End Section //-->
+
+    <hr/>
+
+    <!--// Start Section //-->
+    <section class="section">           
+        <div class="container">
+            <!--// Start Section Row //-->
+            <div class="row"> 
+               <div class="col-xs-12 col-sm-5 col-md-4">  
+                   <div class="col-sm-4 col-md-4">
+                        <p><img src="http://lorempixel.com/180/180/" class="img-responsive img-circle"></p>
+                   </div>
+                   <div class="col-sm-8 col-md-8">
+                       <h4>100,000<br/><small>10% de la audiencia</small></h3>
+                   </div>            
+                </div>
+                <div class="col-xs-12 col-sm-7 col-md-7"> 
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus eligendi delectus necessitatibus, minus dolores quisquam molestiae quas esse dignissimos, odit accusantium, ipsum recusandae blanditiis. Laboriosam, quo sit hic quisquam cumque.</p>
+                </div>
+            </div>
+            <!--// End Section Row //-->
+
+            <!--// Start Section Row //-->
+            <div class="row">  
+                <div class="col-xs-12 col-sm-5 col-md-4">  
+                    <p><img src="http://lorempixel.com/180/180/" class="img-responsive img-circle pull-right"></p>     
+                </div>
+                <div class="col-xs-12 col-sm-7 col-md-7"> 
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus eligendi delectus necessitatibus, minus dolores quisquam molestiae quas esse dignissimos, odit accusantium, ipsum recusandae blanditiis. Laboriosam, quo sit hic quisquam cumque.</p>
+                </div>
+            </div>
+            <!--// End Section Row //-->
+
+        </div>
+    </section>
+    <!--// End Section //-->
+
+    <!--// Start Section //-->
+    <section class="section media--mix" style="background-color: #f4f4f4;">
+        <!-- section content goes in here -->            
+        <div class="container">                
+            <!--// Start Site Sub-header //-->
+            <div class="row media--mix__title">                        
+               <div class="well add-margin-right">
+                <img src="http://lorempixel.com/48/48/" class="img-responsive img-circle pull-left"> Aliquid obcaecati eveniet, est quos unde atque pariatur dolorem, modi architecto nesciunt praesentium eligendi cupiditate quam voluptatum rerum!
                 </div>
             </div>
             <!--// End Site Sub-header //-->
-        </div> 
-        <!--// End Site Sub-header //-->
-        
-        <hr/>
-        
-        <!--// Start Section //-->
-        <section>           
-            <div class="container">               
-                <!--// Start Section Row //-->
-                <div class="row">
-                    <div class="col-xs-4 col-sm-3 col-md-2">                
-                        <p><img src="http://lorempixel.com/180/180/" class="img-responsive img-circle"></p>
-                    </div>
-                    <div class="col-xs-8 col-sm-9 col-md-10">
-                        <div class="col-xs-12 col-sm-6"> 
-                            <h4>Section Sub-title</h4>  
-                        </div>
-                        <div class="col-xs-12 col-sm-6"> 
-                            <div class="col-xs-2">x</div>
-                            <div class="col-xs-2">x</div>
-                            <div class="col-xs-2">x</div>
-                            <div class="col-xs-2">x</div>
-                            <div class="col-xs-2">x</div>
-                            <div class="col-xs-2">x</div>
-                        </div>       
-                        <div class="col-xs-12">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus eligendi delectus necessitatibus, minus dolores quisquam molestiae quas esse dignissimos, odit accusantium, ipsum recusandae blanditiis. Laboriosam, quo sit hic quisquam cumque.</p>
 
-                            <button class="btn btn-default btn-sm">Click Here</button>
-                        </div>
-                        <hr class="col-xs-11"/>
-                    </div>
-                </div>
-                <!--// End Section Row //-->
-                
-                <!--// Start Section Row //-->
-                <div class="row">
-                    <div class="col-xs-4 col-sm-3 col-md-2">                
-                        <p><img src="http://lorempixel.com/180/180/" class="img-responsive img-circle"></p>
-                    </div>
-                    <div class="col-xs-8 col-sm-9 col-md-10">
-                        <div class="col-xs-12 col-sm-6"> 
-                            <h4>Section Sub-title</h4>  
-                        </div>
-                        <div class="col-xs-12 col-sm-6"> 
-                            <div class="col-xs-2">x</div>
-                            <div class="col-xs-2">x</div>
-                            <div class="col-xs-2">x</div>
-                            <div class="col-xs-2">x</div>
-                            <div class="col-xs-2">x</div>
-                            <div class="col-xs-2">x</div>
-                        </div>       
-                        <div class="col-xs-12">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus eligendi delectus necessitatibus, minus dolores quisquam molestiae quas esse dignissimos, odit accusantium, ipsum recusandae blanditiis. Laboriosam, quo sit hic quisquam cumque.</p>
-
-                            <button class="btn btn-default btn-sm">Click Here</button>
-                        </div>
-                        <hr class="col-xs-11"/>
-                    </div>
-                </div>
-                <!--// End Section Row //-->
-                
-                <!--// Start Section Row //-->
-                <div class="row">
-                    <div class="col-xs-4 col-sm-3 col-md-2">                
-                        <p><img src="http://lorempixel.com/180/180/" class="img-responsive img-circle"></p>
-                    </div>
-                    <div class="col-xs-8 col-sm-9 col-md-10">
-                        <div class="col-xs-12 col-sm-6"> 
-                            <h4>Section Sub-title</h4>  
-                        </div>
-                        <div class="col-xs-12 col-sm-6"> 
-                            <div class="col-xs-2">x</div>
-                            <div class="col-xs-2">x</div>
-                            <div class="col-xs-2">x</div>
-                            <div class="col-xs-2">x</div>
-                            <div class="col-xs-2">x</div>
-                            <div class="col-xs-2">x</div>
-                        </div>       
-                        <div class="col-xs-12">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus eligendi delectus necessitatibus, minus dolores quisquam molestiae quas esse dignissimos, odit accusantium, ipsum recusandae blanditiis. Laboriosam, quo sit hic quisquam cumque.</p>
-
-                            <button class="btn btn-default btn-sm">Click Here</button>
-                        </div>
-                    </div>
-                </div>
-                <!--// End Section Row //-->
-                
-            </div>
-        </section>
-        <!--// End Section //-->
-        
-        <hr/>
-        
-        <!--// Start Section //-->
-        <section style="padding-top: 15px; padding-bottom: 15px;">           
-            <div class="container">
-                <!--// Start Section Row //-->
-                <div class="row"> 
-                   <div class="col-xs-12 col-sm-5 col-md-4">  
-                       <div class="col-sm-4 col-md-4">
-                            <p><img src="http://lorempixel.com/180/180/" class="img-responsive img-circle"></p>
-                       </div>
-                       <div class="col-sm-8 col-md-8">
-                           <h4>100,000<br/><small>10% de la audiencia</small></h3>
-                       </div>            
-                    </div>
-                    <div class="col-xs-12 col-sm-7 col-md-7"> 
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus eligendi delectus necessitatibus, minus dolores quisquam molestiae quas esse dignissimos, odit accusantium, ipsum recusandae blanditiis. Laboriosam, quo sit hic quisquam cumque.</p>
-                    </div>
-                </div>
-                <!--// End Section Row //-->
-                
-                <!--// Start Section Row //-->
-                <div class="row">  
-                    <div class="col-xs-12 col-sm-5 col-md-4">  
-                        <p><img src="http://lorempixel.com/180/180/" class="img-responsive img-circle pull-right"></p>     
-                    </div>
-                    <div class="col-xs-12 col-sm-7 col-md-7"> 
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus eligendi delectus necessitatibus, minus dolores quisquam molestiae quas esse dignissimos, odit accusantium, ipsum recusandae blanditiis. Laboriosam, quo sit hic quisquam cumque.</p>
-                    </div>
-                </div>
-                <!--// End Section Row //-->
-                                
-            </div>
-        </section>
-        <!--// End Section //-->
-        
-        <!--// Start Section //-->
-        <section style="background-color: #f4f4f4; padding-top: 15px; padding-bottom: 15px;">
-            <!-- section content goes in here -->            
-            <div class="container">                
-                <!--// Start Site Sub-header //-->
-                <div class="row">                        
-                   <div class="well add-margin-right">
-                    <img src="http://lorempixel.com/48/48/" class="img-responsive img-circle pull-left"> Aliquid obcaecati eveniet, est quos unde atque pariatur dolorem, modi architecto nesciunt praesentium eligendi cupiditate quam voluptatum rerum!
-                    </div>
-                </div>
-                <!--// End Site Sub-header //-->
-                
-                <div class="row">         
-                    <div class="col-xs-12">
-                        <table class="table table-stripped table-bordered">
-                            <tr>
-                                <td>&nbsp;</td>
-                                <td class="text-center">Img 1</td>
-                                <td class="text-center">Img 2</td>
-                                <td class="text-center">Img 3</td>
-                                <td class="text-center">Img 4</td>
-                                <td class="text-center">Img 5</td>
-                                <td class="hidden-xs">&nbsp;</td>
-                            </tr>
-                            <tr>
-                                <td>Media</td>
-                                <td class="text-center"> • </td>
-                                <td class="text-center"> • </td>
-                                <td class="text-center"> • </td>
-                                <td class="text-center"> • </td>
-                                <td class="text-center"> • </td>
-                                <td class="hidden-xs">Contenido</td>
-                            </tr>
-                            <tr>
-                                <td>Media</td>
-                                <td class="text-center"> • </td>
-                                <td class="text-center"> • </td>
-                                <td class="text-center"> • </td>
-                                <td class="text-center"> • </td>
-                                <td class="text-center"> • </td>
-                                <td class="hidden-xs">Contenido</td>
-                            </tr>
-                            <tr>
-                                <td>Media</td>
-                                <td class="text-center"> • </td>
-                                <td class="text-center"> • </td>
-                                <td class="text-center"> • </td>
-                                <td class="text-center"> • </td>
-                                <td class="text-center"> • </td>
-                                <td class="hidden-xs">Contenido</td>
-                            </tr>
-                        </table>
-                    </div>
-                </div>
-                                      
-                <div class="row">
-                    <div class="col-xs-12 text-center">
-                        <p>&nbsp;</p> 
-                        <p> <a href="#" class="btn btn-default btn-sm">Click Here</a> </p>
-                    </div>
-                </div>
-            </div>
-        </section>        
-        <!--// End Section //-->
-
-        <div class="footer section section__block--notitle section__template--alternate">
-            <!-- footer content goes in here -->           
-            <div class="container-fluid section section__block--notitle" >
-                <div class="row">
-                    <div class="container">                
-                        <div class="row">
-                            <div class="col-sm-8">
-                                Copyright 2017 &nbsp; <a href="#" class="">Front-End Project</a>
-                            </div>
-
-                            <div class="col-sm-4">                                
-                                <div class="container-fluid">
-                                    <ul>
-                                        <li><a href="#">Link 1</a></li>
-                                        <li><a href="#">Link 2</a></li>
-                                        <li><a href="#">Link 3</a></li>
-                                    </ul>
+            <div class="row media--mix__table">          
+                <div class="col-xs-12">
+                    <table class="table table-stripped table-bordered">
+                        <tr>
+                            <td>&nbsp;</td>
+                            <td class="text-center">Img 1</td>
+                            <td class="text-center">Img 2</td>
+                            <td class="text-center">Img 3</td>
+                            <td class="text-center">Img 4</td>
+                            <td class="text-center">Img 5</td>
+                            <td class="hidden-xs">&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td>Media</td>
+                            <td class="text-center"> <i class="icon--custom circle on xs"></i> </td>
+                            <td class="text-center"> <i class="icon--custom circle off xs"></i> </td>
+                            <td class="text-center"> <i class="icon--custom circle default xs"></i> </td>
+                            <td class="text-center"> <i class="icon--custom circle on xs"></i> </td>
+                            <td class="text-center"> <i class="icon--custom circle default xs"></i> </td>
+                            <td class="hidden-xs">
+                                <div class="row">
+                                    <div class="col-xs-6">
+                                        Media 1 <i class="icon--custom circle default xs"></i>
+                                    </div>
+                                    <div class="col-xs-6">
+                                        Media 1 <i class="icon--custom circle default xs"></i>
+                                    </div>
                                 </div>
-                            </div> 
-                        </div>
-                    </div>               
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Media</td>
+                            <td class="text-center"> <i class="icon--custom circle on xs"></i> </td>
+                            <td class="text-center"> <i class="icon--custom circle off xs"></i> </td>
+                            <td class="text-center"> <i class="icon--custom circle default xs"></i> </td>
+                            <td class="text-center"> <i class="icon--custom circle on xs"></i> </td>
+                            <td class="text-center"> <i class="icon--custom circle default xs"></i> </td>
+                            <td class="hidden-xs">
+                                <div class="row">
+                                    <div class="col-xs-6">
+                                        Media 1 <i class="icon--custom circle off xs"></i>
+                                    </div>
+                                    <div class="col-xs-6">
+                                        Media 1 <i class="icon--custom circle on xs"></i>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Media</td>
+                            <td class="text-center"> <i class="icon--custom circle on xs"></i> </td>
+                            <td class="text-center"> <i class="icon--custom circle off xs"></i> </td>
+                            <td class="text-center"> <i class="icon--custom circle default xs"></i> </td>
+                            <td class="text-center">  <i class="icon--custom circle on xs"></i> </td>
+                            <td class="text-center"> <i class="icon--custom circle default xs"></i> </td>
+                            <td class="hidden-xs">
+                                <div class="row">
+                                    <div class="col-xs-6">
+                                        Media 1 <i class="icon--custom circle default xs"></i>
+                                    </div>
+                                    <div class="col-xs-6">
+                                        Media 1 <i class="icon--custom circle off xs"></i>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-xs-12 text-center">
+                    <p>&nbsp;</p> 
+                    <p> <a href="#" class="btn btn-default btn-sm">Click Here</a> </p>
                 </div>
             </div>
         </div>
-    </main>
-    <!-- SCRIPTS -->
-    <script src="bower_components/jquery/dist/jquery.min.js"></script>
-    <script src="bower_components/jquery-easing/jquery.easing.min.js"></script>
-    <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
-    <script src="bower_components/retinajs/dist/retina.min.js"></script>
+    </section>        
+    <!--// End Section //-->
+</div>
+    
+<footer class="footer">
+    <!-- footer content goes in here -->           
+    <div class="container" >
+        <div class="row no-gutter">
+            <div class="col-xs-12 no-gutter">                                
+                <div class="col-sm-1 col-md-1 hidden-xs">
+                    <img src="http://lorempixel.com/72/72/" class="footer--logo img-responsive">
+                </div>  
+                <div class="clearfix hidden-lg hidden-md hidden-sm"></div>
 
-    <!-- CUSTOM SCRIPTS -->
-    <script src="assets/js/app.js"></script>
-    <script src="assets/js/animation.js"></script>
-    <script src="assets/js/interaction.js"></script>
+                <div class="col-sm-11 col-md-11">             
+                    <div class="col-sm-12 footer--contact">
+                       <ul class="go-social pull-right">
+                            <li class="contact hidden-xs">
+                                <a href="#">
+                                    <i class="glyphicon glyphicon-earphone"></i> <span>999.999.9999</span>
+                                </a>
+                            </li>
+                            <li hidden-xs>&nbsp;</li>
+                            <li hidden-xs>&nbsp;</li>
+                            <li>
+                                <a href="#">
+                                    <i class="icon--custom fb sm"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="icon--custom tw sm"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="icon--custom li sm"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="icon--custom in sm"></i>
+                                </a>
+                            </li>                               
+                       </ul>
+                    </div> 
+                    <div class="clearfix"></div>
+                    
+                    <div class="col-sm-12 footer--widgets">        
+                        <div class="col-sm-4 col-md-3">
+                           <div class="widget">
+                                <h5 class="widget--title">Footer Section</h5>
+                                <p class="widget--text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit nam ea officiis ut nulla aliquid debitis natus quidem perspiciatis expedita sapiente, accusantium ipsum reiciendis vitae, quis inventore harum autem a.</p>
+                           </div>
+                        </div>  
+                                                     
+                        <div class="col-sm-4 col-md-3">
+                           <div class="widget">
+                                <h5 class="widget--title">Footer Section</h5>
+                                
+                                <ul class="widget--list">
+                                    <li><a href="#">Press release</a></li>
+                                    <li><a href="#">Terms and conditions</a></li>
+                                    <li><a href="#">Privacy policy</a></li>
+                                    <li>Career center</li>
+                                    <li>Contact us</li>
+                                </ul>
+                           </div>
+                        </div>  
+                                                    
+                        <div class="col-sm-4 col-md-3">
+                           <div class="widget">
+                                <h5 class="widget--title">Footer Section</h5>
+                                <p class="widget--text">Something here.</p> 
+                                
+                                <ul class="widget--list">
+                                    <li>Press release</li>
+                                    <li><a href="#">Terms and conditions</a></li>
+                                    <li><a href="#">Privacy policy</a></li>
+                                </ul>
+                           </div>
+                        </div>
+                        <div class="clearfix hidden-lg hidden-md"></div>
+                                                      
+                        <div class="col-sm-4 col-md-3">
+                           <div class="widget">
+                                <h5 class="widget--title">Footer Section</h5> 
+                                <p class="widget--text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt, ad impedit ea ullam labore, <a href="#">perspiciatis id blanditiis</a>, necessitatibus sequi magnam facilis voluptatum iste quia aliquam eaque earum reprehenderit exercitationem, molestias.</p> 
+
+                           </div>
+                        </div>      
+                        <div class="clearfix hidden-sm hidden-xs"></div>  
+                        
+                        <div class="col-sm-4 col-md-3">
+                           <div class="widget">
+                                <h5 class="widget--title">Footer Section</h5>                               
+                                <ul class="widget--list">
+                                    <li><a href="#">Career center</a></li>
+                                    <li><a href="#">Contact us</a></li>
+                                </ul>
+                           </div>
+                        </div>  
+                    </div>  
+                    
+                    <div class="col-sm-12 footer--subscribe">                       
+                        <hr/>
+                        <div class="col-sm-8">
+                            <p class="footer--suscribe__title">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                        </div>                              
+                        <div class="col-sm-4">
+                            <form class="footer--suscribe__form">
+                              <div class="input-group">
+                                <input type="text" class="form-control" placeholder="Subscribe now!">
+                                <div class="input-group-btn">
+                                  <button class="btn btn-default" type="submit">
+                                    Submit
+                                  </button>
+                                </div>
+                              </div>
+                            </form>
+                        </div>
+                    </div> 
+                </div> 
+            </div> 
+
+            <div class="col-xs-12 footer--copyright">                                
+                <div class="col-sm-7">
+                    <p class="footer--copyright__text">Copyright &copy; 2017 &bull; Front-End Website</p>
+                </div>                              
+                <div class="col-sm-2">
+                    <a class="footer--links" href="#">Privacy Policy</a>
+                </div>                              
+                <div class="col-sm-2">
+                    <a class="footer--links" href="#">Terms & Conditions</a>
+                </div> 
+
+                <div class="col-sm-1">
+                    <a class="go-top" href="#top"><i class="glyphicon glyphicon-arrow-up pull-right"></i></a>
+                </div>
+            </div>               
+        </div>
+    </div>
+</footer>
+    
+<!-- SCRIPTS -->
+<script src="bower_components/jquery/dist/jquery.min.js"></script>
+<script src="bower_components/jquery-easing/jquery.easing.min.js"></script>
+<script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="bower_components/retinajs/dist/retina.min.js"></script>
+
+<!-- CUSTOM SCRIPTS -->
+<script src="assets/js/app.js"></script>
+<script src="assets/js/animation.js"></script>
+<script src="assets/js/interaction.js"></script>
 
 </body>
 

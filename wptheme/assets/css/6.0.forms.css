@@ -1,7 +1,6 @@
 /**
  * 6.0 Forms
  */
-/* line 8, ../../sources/sass/6.0.forms.scss */
 label {
   color: #333;
   display: block;
@@ -9,12 +8,10 @@ label {
   margin-bottom: 0.5em;
 }
 
-/* line 15, ../../sources/sass/6.0.forms.scss */
 fieldset {
   margin-bottom: 1em;
 }
 
-/* line 19, ../../sources/sass/6.0.forms.scss */
 input[type="text"],
 input[type="email"],
 input[type="url"],
@@ -42,7 +39,6 @@ textarea {
   width: 100%;
 }
 
-/* line 46, ../../sources/sass/6.0.forms.scss */
 input[type="text"]:focus,
 input[type="email"]:focus,
 input[type="url"]:focus,
@@ -63,7 +59,6 @@ textarea:focus {
   border-color: #333;
 }
 
-/* line 66, ../../sources/sass/6.0.forms.scss */
 select {
   border: 1px solid #bbb;
   -webkit-border-radius: 3px;
@@ -72,19 +67,16 @@ select {
   max-width: 100%;
 }
 
-/* line 74, ../../sources/sass/6.0.forms.scss */
 input[type="radio"],
 input[type="checkbox"] {
   margin-right: 0.5em;
 }
 
-/* line 79, ../../sources/sass/6.0.forms.scss */
 input[type="radio"] + label,
 input[type="checkbox"] + label {
   font-weight: 400;
 }
 
-/* line 84, ../../sources/sass/6.0.forms.scss */
 button,
 input[type="button"],
 input[type="submit"] {
@@ -107,14 +99,12 @@ input[type="submit"] {
   transition: background 0.2s;
 }
 
-/* line 106, ../../sources/sass/6.0.forms.scss */
 input + button,
 input + input[type="button"],
 input + input[type="submit"] {
   padding: 0.75em 2em;
 }
 
-/* line 112, ../../sources/sass/6.0.forms.scss */
 button.secondary,
 input[type="reset"],
 input[type="button"].secondary,
@@ -124,7 +114,6 @@ input[type="submit"].secondary {
   color: #222;
 }
 
-/* line 121, ../../sources/sass/6.0.forms.scss */
 button:hover,
 button:focus,
 input[type="button"]:hover,
@@ -134,7 +123,6 @@ input[type="submit"]:focus {
   background: #767676;
 }
 
-/* line 130, ../../sources/sass/6.0.forms.scss */
 button.secondary:hover,
 button.secondary:focus,
 input[type="reset"]:hover,
@@ -149,19 +137,16 @@ input[type="submit"].secondary:focus {
 }
 
 /* Placeholder text color -- selectors need to be separate to work. */
-/* line 144, ../../sources/sass/6.0.forms.scss */
 ::-webkit-input-placeholder {
   color: #333;
   font-family: "Libre Franklin", "Helvetica Neue", helvetica, arial, sans-serif;
 }
 
-/* line 149, ../../sources/sass/6.0.forms.scss */
 :-moz-placeholder {
   color: #333;
   font-family: "Libre Franklin", "Helvetica Neue", helvetica, arial, sans-serif;
 }
 
-/* line 154, ../../sources/sass/6.0.forms.scss */
 ::-moz-placeholder {
   color: #333;
   font-family: "Libre Franklin", "Helvetica Neue", helvetica, arial, sans-serif;
@@ -169,7 +154,6 @@ input[type="submit"].secondary:focus {
   /* Since FF19 lowers the opacity of the placeholder by default */
 }
 
-/* line 161, ../../sources/sass/6.0.forms.scss */
 :-ms-input-placeholder {
   color: #333;
   font-family: "Libre Franklin", "Helvetica Neue", helvetica, arial, sans-serif;
